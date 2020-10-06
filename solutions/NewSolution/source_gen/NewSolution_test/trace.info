@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test)/8510667047123729214">
+    <file name="SLANT.java">
+      <node id="8510667047123729214" at="16,43,17,31" concept="4" />
+      <node id="8510667047123729214" at="17,31,18,16" concept="3" />
+      <node id="8510667047123729214" at="20,41,21,30" concept="4" />
+      <node id="8510667047123729214" at="21,30,22,16" concept="3" />
+      <node id="8510667047123729214" at="24,46,25,33" concept="4" />
+      <node id="8510667047123729214" at="25,33,26,16" concept="3" />
+      <node id="8510667047123729214" at="28,37,29,30" concept="4" />
+      <node id="8510667047123729214" at="29,30,30,16" concept="3" />
+      <node id="6756272197011005761" at="35,48,36,24" concept="8" />
+      <node id="6756272197011005761" at="39,54,40,30" concept="8" />
+      <node id="6756272197011005763" at="45,46,46,24" concept="8" />
+      <node id="6756272197011005763" at="49,52,50,30" concept="8" />
+      <node id="6756272197011005766" at="55,47,56,24" concept="8" />
+      <node id="6756272197011005766" at="59,53,60,30" concept="8" />
+      <node id="6756272197011005770" at="65,48,66,24" concept="8" />
+      <node id="6756272197011005770" at="69,54,70,30" concept="8" />
+      <node id="1226764786737571505" at="75,0,76,0" concept="6" trace="b" />
+      <node id="3939777123860396410" at="76,0,77,0" concept="6" trace="l1" />
+      <node id="3939777123860396485" at="77,0,78,0" concept="6" trace="l2" />
+      <node id="3939777123860396488" at="78,0,79,0" concept="6" trace="l3" />
+      <node id="3939777123860396492" at="79,0,80,0" concept="6" trace="l4" />
+      <node id="3939777123860396497" at="80,0,81,0" concept="6" trace="l5" />
+      <node id="3939777123860396506" at="81,0,82,0" concept="6" trace="b1" />
+      <node id="3939777123860396588" at="82,0,83,0" concept="6" trace="b2" />
+      <node id="3939777123860396591" at="83,0,84,0" concept="6" trace="b3" />
+      <node id="3939777123860396595" at="84,0,85,0" concept="6" trace="b4" />
+      <node id="3939777123860396600" at="85,0,86,0" concept="6" trace="b5" />
+      <node id="1226764786737571514" at="86,0,87,0" concept="6" trace="n" />
+      <node id="1226764786737571523" at="87,0,88,0" concept="6" trace="s1" />
+      <node id="1226764786737571526" at="88,0,89,0" concept="6" trace="s2" />
+      <node id="1226764786737571530" at="89,0,90,0" concept="6" trace="s3" />
+      <node id="1226764786737571535" at="90,0,91,0" concept="6" trace="s4" />
+      <node id="1226764786737571571" at="91,0,92,0" concept="6" trace="e1" />
+      <node id="1226764786737571587" at="92,0,93,0" concept="6" trace="e2" />
+      <node id="1226764786737572323" at="93,0,94,0" concept="6" trace="e3" />
+      <node id="1226764786737571590" at="94,0,95,0" concept="6" trace="e4" />
+      <node id="1226764786737571594" at="95,0,96,0" concept="6" trace="e5" />
+      <node id="6756272197011005792" at="97,0,98,0" concept="6" trace="oper_mkBoard" />
+      <node id="6756272197011005898" at="98,0,99,0" concept="6" trace="oper_mkLine" />
+      <node id="6756272197011008619" at="99,0,100,0" concept="6" trace="oper_mkBlock" />
+      <node id="6756272197011006089" at="100,0,101,0" concept="6" trace="oper__0" />
+      <node id="6756272197011006423" at="101,0,102,0" concept="6" trace="oper__1" />
+      <node id="6756272197011006171" at="102,0,103,0" concept="6" trace="oper__2" />
+      <node id="6756272197011006201" at="103,0,104,0" concept="6" trace="oper__3" />
+      <node id="6756272197011006233" at="104,0,105,0" concept="6" trace="oper__4" />
+      <node id="6756272197011006267" at="105,0,106,0" concept="6" trace="oper___" />
+      <node id="6756272197011006303" at="106,0,107,0" concept="6" trace="oper_x" />
+      <node id="6756272197011006341" at="107,0,108,0" concept="6" trace="oper_fs" />
+      <node id="6756272197011006381" at="108,0,109,0" concept="6" trace="oper_bs" />
+      <node id="1226764786737576190" at="109,0,110,0" concept="6" trace="oper_em" />
+      <node id="3939777123861014178" at="110,0,111,0" concept="6" trace="oper_bl1" />
+      <node id="3939777123860619410" at="111,0,112,0" concept="6" trace="oper_line1" />
+      <node id="3939777123860619501" at="112,0,113,0" concept="6" trace="oper_line2" />
+      <node id="3939777123860619587" at="113,0,114,0" concept="6" trace="oper_line3" />
+      <node id="3939777123860619680" at="114,0,115,0" concept="6" trace="oper_line4" />
+      <node id="3939777123860619780" at="115,0,116,0" concept="6" trace="oper_line5" />
+      <node id="1226764786739685063" at="116,0,117,0" concept="6" trace="oper_correctBoard" />
+      <node id="3939777123860610745" at="117,0,118,0" concept="6" trace="oper_correctLine" />
+      <node id="1226764786739685721" at="118,0,119,0" concept="6" trace="oper_correctBlocks" />
+      <node id="3939777123861599508" at="119,0,120,0" concept="6" trace="oper_correctBlock" />
+      <node id="3939777123861867229" at="120,0,121,0" concept="6" trace="oper_correctBlockTrans" />
+      <node id="3939777123860611799" at="121,0,122,0" concept="6" trace="oper_correctElements" />
+      <node id="3939777123861936639" at="122,0,123,0" concept="6" trace="oper_correctx1" />
+      <node id="3939777123862651039" at="123,0,124,0" concept="6" trace="oper_correctx2" />
+      <node id="3939777123862656159" at="124,0,125,0" concept="6" trace="oper_correctx3" />
+      <node id="3939777123862656334" at="125,0,126,0" concept="6" trace="oper_correctx4" />
+      <node id="3939777123862656501" at="126,0,127,0" concept="6" trace="oper_correctx5" />
+      <node id="3939777123862656675" at="127,0,128,0" concept="6" trace="oper_correctx6" />
+      <node id="3939777123862656856" at="128,0,129,0" concept="6" trace="oper_correctx7" />
+      <node id="3939777123862657044" at="129,0,130,0" concept="6" trace="oper_correctx8" />
+      <node id="3939777123862657239" at="130,0,131,0" concept="6" trace="oper_correctx9" />
+      <node id="3939777123862657441" at="131,0,132,0" concept="6" trace="oper_correctx10" />
+      <node id="3939777123862657650" at="132,0,133,0" concept="6" trace="oper_correctx11" />
+      <node id="3939777123862657866" at="133,0,134,0" concept="6" trace="oper_correctx12" />
+      <node id="3939777123862658089" at="134,0,135,0" concept="6" trace="oper_correctx13" />
+      <node id="3939777123862658319" at="135,0,136,0" concept="6" trace="oper_correctx14" />
+      <node id="3939777123862658556" at="136,0,137,0" concept="6" trace="oper_correctx15" />
+      <node id="3939777123862658800" at="137,0,138,0" concept="6" trace="oper_correctx16" />
+      <node id="3939777123862659051" at="138,0,139,0" concept="6" trace="oper_correctx17" />
+      <node id="3939777123862659309" at="139,0,140,0" concept="6" trace="oper_correctx18" />
+      <node id="3939777123862659574" at="140,0,141,0" concept="6" trace="oper_correctx19" />
+      <node id="3939777123862776242" at="141,0,142,0" concept="6" trace="oper_correctx20" />
+      <node id="3939777123862776521" at="142,0,143,0" concept="6" trace="oper_correctx21" />
+      <node id="3939777123863771280" at="143,0,144,0" concept="6" trace="oper_correctx22" />
+      <node id="8267741397295530346" at="144,0,145,0" concept="6" trace="oper_correctx23" />
+      <node id="3939777123861973438" at="145,0,146,0" concept="6" trace="oper_correctxx1" />
+      <node id="3939777123864345282" at="146,0,147,0" concept="6" trace="oper_correctxx2" />
+      <node id="3939777123864354400" at="147,0,148,0" concept="6" trace="oper_correctxx3" />
+      <node id="3939777123864354880" at="148,0,149,0" concept="6" trace="oper_correctxx4" />
+      <node id="3939777123864345606" at="149,0,150,0" concept="6" trace="oper_correctxx5" />
+      <node id="3939777123864345927" at="150,0,151,0" concept="6" trace="oper_correctxx6" />
+      <node id="3939777123864346255" at="151,0,152,0" concept="6" trace="oper_correctxx7" />
+      <node id="3939777123864346590" at="152,0,153,0" concept="6" trace="oper_correctxx8" />
+      <node id="3939777123864346932" at="153,0,154,0" concept="6" trace="oper_correctxx9" />
+      <node id="3939777123864347281" at="154,0,155,0" concept="6" trace="oper_correctxx10" />
+      <node id="3939777123864347637" at="155,0,156,0" concept="6" trace="oper_correctxx11" />
+      <node id="3939777123864348000" at="156,0,157,0" concept="6" trace="oper_correctxx12" />
+      <node id="3939777123864348370" at="157,0,158,0" concept="6" trace="oper_correctxx13" />
+      <node id="3939777123864348747" at="158,0,159,0" concept="6" trace="oper_correctxx14" />
+      <node id="3939777123864349131" at="159,0,160,0" concept="6" trace="oper_correctxx15" />
+      <node id="3939777123864349522" at="160,0,161,0" concept="6" trace="oper_correctxx16" />
+      <node id="3939777123864349920" at="161,0,162,0" concept="6" trace="oper_correctxx17" />
+      <node id="3939777123864350325" at="162,0,163,0" concept="6" trace="oper_correctxx18" />
+      <node id="3939777123864350737" at="163,0,164,0" concept="6" trace="oper_correctxx19" />
+      <node id="3939777123864351156" at="164,0,165,0" concept="6" trace="oper_correctxx20" />
+      <node id="3939777123864351582" at="165,0,166,0" concept="6" trace="oper_correctxx21" />
+      <node id="3939777123864352015" at="166,0,167,0" concept="6" trace="oper_correctxx22" />
+      <node id="3939777123864352455" at="167,0,168,0" concept="6" trace="oper_correctxx23" />
+      <node id="3939777123864352902" at="168,0,169,0" concept="6" trace="oper_correctxx24" />
+      <node id="3939777123866307502" at="169,0,170,0" concept="6" trace="oper_edge1" />
+      <node id="3939777123866308094" at="170,0,171,0" concept="6" trace="oper_edge2" />
+      <node id="3939777123866308593" at="171,0,172,0" concept="6" trace="oper_edge3" />
+      <node id="3939777123866309089" at="172,0,173,0" concept="6" trace="oper_edge4" />
+      <node id="3939777123866309592" at="173,0,174,0" concept="6" trace="oper_edge5" />
+      <node id="3939777123866310102" at="174,0,175,0" concept="6" trace="oper_edge6" />
+      <node id="3939777123866310619" at="175,0,176,0" concept="6" trace="oper_edge7" />
+      <node id="3939777123866311143" at="176,0,177,0" concept="6" trace="oper_edge8" />
+      <node id="3939777123866311674" at="177,0,178,0" concept="6" trace="oper_edge9" />
+      <node id="3939777123866334941" at="178,0,179,0" concept="6" trace="oper_corner1" />
+      <node id="3939777123866335546" at="179,0,180,0" concept="6" trace="oper_corner2" />
+      <node id="3939777123866336133" at="180,0,181,0" concept="6" trace="oper_corner3" />
+      <node id="3939777123866336732" at="181,0,182,0" concept="6" trace="oper_corner4" />
+      <node id="3939777123866337321" at="182,0,183,0" concept="6" trace="oper_corner5" />
+      <node id="3939777123866337941" at="183,0,184,0" concept="6" trace="oper_corner6" />
+      <node id="8267741397299137420" at="184,0,185,0" concept="6" trace="oper_corner7" />
+      <node id="8267741397299138049" at="185,0,186,0" concept="6" trace="oper_corner8" />
+      <node id="8267741397299138685" at="186,0,187,0" concept="6" trace="oper_corner9" />
+      <node id="3939777123862788290" at="187,0,188,0" concept="6" trace="oper_checkSingle" />
+      <node id="3939777123863693756" at="188,0,189,0" concept="6" trace="oper_checkDouble" />
+      <node id="8267741397296788331" at="189,0,190,0" concept="6" trace="oper_checkEdges" />
+      <node id="8267741397296789007" at="190,0,191,0" concept="6" trace="oper_checkCorners" />
+      <node id="3939777123864355412" at="191,0,192,0" concept="6" trace="oper_multipleCheck1" />
+      <node id="8267741397298631080" at="192,0,193,0" concept="6" trace="oper_MultipleCheck2" />
+      <node id="8267741397299124872" at="193,0,194,0" concept="6" trace="oper_MultipleCheck3" />
+      <node id="8267741397294200154" at="194,0,195,0" concept="6" trace="oper_checkSmallLoops" />
+      <node id="8267741397301677752" at="195,0,196,0" concept="6" trace="oper_checkSmall" />
+      <node id="6756272197011005792" at="197,96,198,75" concept="3" />
+      <node id="6756272197011005898" at="200,104,201,78" concept="3" />
+      <node id="6756272197011008619" at="203,86,204,70" concept="3" />
+      <node id="6756272197011006089" at="206,26,207,28" concept="3" />
+      <node id="6756272197011006423" at="209,26,210,28" concept="3" />
+      <node id="6756272197011006171" at="212,26,213,28" concept="3" />
+      <node id="6756272197011006201" at="215,26,216,28" concept="3" />
+      <node id="6756272197011006233" at="218,26,219,28" concept="3" />
+      <node id="6756272197011006267" at="221,26,222,28" concept="3" />
+      <node id="6756272197011006303" at="224,25,225,27" concept="3" />
+      <node id="6756272197011006341" at="227,26,228,28" concept="3" />
+      <node id="6756272197011006381" at="230,26,231,28" concept="3" />
+      <node id="1226764786737576190" at="233,26,234,28" concept="3" />
+      <node id="3939777123861014178" at="236,82,237,66" concept="3" />
+      <node id="3939777123860619410" at="239,103,240,77" concept="3" />
+      <node id="3939777123860619501" at="242,108,243,82" concept="3" />
+      <node id="3939777123860619587" at="245,108,246,82" concept="3" />
+      <node id="3939777123860619680" at="248,108,249,82" concept="3" />
+      <node id="3939777123860619780" at="251,108,252,82" concept="3" />
+      <node id="1226764786739685063" at="254,50,255,48" concept="3" />
+      <node id="3939777123860610745" at="257,47,258,46" concept="3" />
+      <node id="1226764786739685721" at="260,52,261,50" concept="3" />
+      <node id="3939777123861599508" at="263,95,264,79" concept="3" />
+      <node id="3939777123861867229" at="266,100,267,84" concept="3" />
+      <node id="3939777123860611799" at="269,98,270,82" concept="3" />
+      <node id="3939777123861936639" at="272,92,273,76" concept="3" />
+      <node id="3939777123862651039" at="275,92,276,76" concept="3" />
+      <node id="3939777123862656159" at="278,92,279,76" concept="3" />
+      <node id="3939777123862656334" at="281,92,282,76" concept="3" />
+      <node id="3939777123862656501" at="284,92,285,76" concept="3" />
+      <node id="3939777123862656675" at="287,92,288,76" concept="3" />
+      <node id="3939777123862656856" at="290,92,291,76" concept="3" />
+      <node id="3939777123862657044" at="293,92,294,76" concept="3" />
+      <node id="3939777123862657239" at="296,92,297,76" concept="3" />
+      <node id="3939777123862657441" at="299,93,300,77" concept="3" />
+      <node id="3939777123862657650" at="302,93,303,77" concept="3" />
+      <node id="3939777123862657866" at="305,93,306,77" concept="3" />
+      <node id="3939777123862658089" at="308,93,309,77" concept="3" />
+      <node id="3939777123862658319" at="311,93,312,77" concept="3" />
+      <node id="3939777123862658556" at="314,93,315,77" concept="3" />
+      <node id="3939777123862658800" at="317,98,318,82" concept="3" />
+      <node id="3939777123862659051" at="320,98,321,82" concept="3" />
+      <node id="3939777123862659309" at="323,98,324,82" concept="3" />
+      <node id="3939777123862659574" at="326,98,327,82" concept="3" />
+      <node id="3939777123862776242" at="329,98,330,82" concept="3" />
+      <node id="3939777123862776521" at="332,98,333,82" concept="3" />
+      <node id="3939777123863771280" at="335,98,336,82" concept="3" />
+      <node id="8267741397295530346" at="338,98,339,82" concept="3" />
+      <node id="3939777123861973438" at="341,98,342,82" concept="3" />
+      <node id="3939777123864345282" at="344,98,345,82" concept="3" />
+      <node id="3939777123864354400" at="347,98,348,82" concept="3" />
+      <node id="3939777123864354880" at="350,98,351,82" concept="3" />
+      <node id="3939777123864345606" at="353,98,354,82" concept="3" />
+      <node id="3939777123864345927" at="356,98,357,82" concept="3" />
+      <node id="3939777123864346255" at="359,98,360,82" concept="3" />
+      <node id="3939777123864346590" at="362,98,363,82" concept="3" />
+      <node id="3939777123864346932" at="365,98,366,82" concept="3" />
+      <node id="3939777123864347281" at="368,99,369,83" concept="3" />
+      <node id="3939777123864347637" at="371,99,372,83" concept="3" />
+      <node id="3939777123864348000" at="374,99,375,83" concept="3" />
+      <node id="3939777123864348370" at="377,99,378,83" concept="3" />
+      <node id="3939777123864348747" at="380,99,381,83" concept="3" />
+      <node id="3939777123864349131" at="383,99,384,83" concept="3" />
+      <node id="3939777123864349522" at="386,99,387,83" concept="3" />
+      <node id="3939777123864349920" at="389,99,390,83" concept="3" />
+      <node id="3939777123864350325" at="392,99,393,83" concept="3" />
+      <node id="3939777123864350737" at="395,99,396,83" concept="3" />
+      <node id="3939777123864351156" at="398,99,399,83" concept="3" />
+      <node id="3939777123864351582" at="401,99,402,83" concept="3" />
+      <node id="3939777123864352015" at="404,99,405,83" concept="3" />
+      <node id="3939777123864352455" at="407,99,408,83" concept="3" />
+      <node id="3939777123864352902" at="410,99,411,83" concept="3" />
+      <node id="3939777123866307502" at="413,93,414,77" concept="3" />
+      <node id="3939777123866308094" at="416,93,417,77" concept="3" />
+      <node id="3939777123866308593" at="419,93,420,77" concept="3" />
+      <node id="3939777123866309089" at="422,93,423,77" concept="3" />
+      <node id="3939777123866309592" at="425,93,426,77" concept="3" />
+      <node id="3939777123866310102" at="428,93,429,77" concept="3" />
+      <node id="3939777123866310619" at="431,93,432,77" concept="3" />
+      <node id="3939777123866311143" at="434,93,435,77" concept="3" />
+      <node id="3939777123866311674" at="437,93,438,77" concept="3" />
+      <node id="3939777123866334941" at="440,95,441,79" concept="3" />
+      <node id="3939777123866335546" at="443,95,444,79" concept="3" />
+      <node id="3939777123866336133" at="446,95,447,79" concept="3" />
+      <node id="3939777123866336732" at="449,95,450,79" concept="3" />
+      <node id="3939777123866337321" at="452,95,453,79" concept="3" />
+      <node id="3939777123866337941" at="455,95,456,79" concept="3" />
+      <node id="8267741397299137420" at="458,95,459,79" concept="3" />
+      <node id="8267741397299138049" at="461,95,462,79" concept="3" />
+      <node id="8267741397299138685" at="464,95,465,79" concept="3" />
+      <node id="3939777123862788290" at="467,99,468,83" concept="3" />
+      <node id="3939777123863693756" at="470,99,471,83" concept="3" />
+      <node id="8267741397296788331" at="473,98,474,82" concept="3" />
+      <node id="8267741397296789007" at="476,100,477,84" concept="3" />
+      <node id="3939777123864355412" at="479,102,480,86" concept="3" />
+      <node id="8267741397298631080" at="482,102,483,86" concept="3" />
+      <node id="8267741397299124872" at="485,102,486,86" concept="3" />
+      <node id="8267741397294200154" at="488,103,489,87" concept="3" />
+      <node id="8267741397301677752" at="491,98,492,82" concept="3" />
+      <node id="8510667047123729214" at="495,40,496,53" concept="1" />
+      <node id="3939777123861077308" at="496,53,497,298" concept="1" />
+      <node id="3939777123861081742" at="497,298,498,306" concept="1" />
+      <node id="3939777123860619905" at="498,306,499,588" concept="1" />
+      <node id="3939777123860668810" at="499,588,500,1148" concept="1" />
+      <node id="8267741397301376517" at="500,1148,501,288" concept="1" />
+      <node id="3939777123866106442" at="501,288,502,235" concept="1" />
+      <node id="8267741397298628419" at="502,235,503,391" concept="1" />
+      <node id="8267741397300365865" at="503,391,504,318" concept="1" />
+      <node id="3939777123862787220" at="504,318,505,1880" concept="1" />
+      <node id="3939777123865425713" at="505,1880,506,1983" concept="1" />
+      <node id="8267741397296789705" at="506,1983,507,737" concept="1" />
+      <node id="8267741397299797234" at="507,737,508,529" concept="1" />
+      <node id="3939777123861936910" at="508,529,509,460" concept="1" />
+      <node id="3939777123862007925" at="509,460,510,460" concept="1" />
+      <node id="3939777123862065254" at="510,460,511,460" concept="1" />
+      <node id="3939777123862082803" at="511,460,512,460" concept="1" />
+      <node id="3939777123862088562" at="512,460,513,460" concept="1" />
+      <node id="3939777123862110847" at="513,460,514,460" concept="1" />
+      <node id="3939777123862122965" at="514,460,515,413" concept="1" />
+      <node id="3939777123862160015" at="515,413,516,413" concept="1" />
+      <node id="3939777123862167059" at="516,413,517,413" concept="1" />
+      <node id="3939777123862246063" at="517,413,518,414" concept="1" />
+      <node id="3939777123862254345" at="518,414,519,508" concept="1" />
+      <node id="3939777123862340304" at="519,508,520,508" concept="1" />
+      <node id="3939777123862348611" at="520,508,521,508" concept="1" />
+      <node id="3939777123862368893" at="521,508,522,508" concept="1" />
+      <node id="3939777123862402167" at="522,508,523,367" concept="1" />
+      <node id="3939777123862453031" at="523,367,524,367" concept="1" />
+      <node id="3939777123862471051" at="524,367,525,367" concept="1" />
+      <node id="3939777123862485186" at="525,367,526,367" concept="1" />
+      <node id="3939777123862508625" at="526,367,527,367" concept="1" />
+      <node id="3939777123862518914" at="527,367,528,367" concept="1" />
+      <node id="3939777123862529481" at="528,367,529,367" concept="1" />
+      <node id="3939777123862545109" at="529,367,530,367" concept="1" />
+      <node id="3939777123859716007" at="530,367,531,555" concept="1" />
+      <node id="3939777123861972895" at="531,555,532,508" concept="1" />
+      <node id="3939777123864313965" at="532,508,533,508" concept="1" />
+      <node id="3939777123864361963" at="533,508,534,461" concept="1" />
+      <node id="3939777123864430964" at="534,461,535,461" concept="1" />
+      <node id="3939777123864451327" at="535,461,536,461" concept="1" />
+      <node id="3939777123864485112" at="536,461,537,461" concept="1" />
+      <node id="3939777123864506509" at="537,461,538,461" concept="1" />
+      <node id="3939777123864562248" at="538,461,539,461" concept="1" />
+      <node id="3939777123864598527" at="539,461,540,461" concept="1" />
+      <node id="3939777123864600215" at="540,461,541,462" concept="1" />
+      <node id="3939777123864703232" at="541,462,542,462" concept="1" />
+      <node id="3939777123864749302" at="542,462,543,415" concept="1" />
+      <node id="3939777123864833819" at="543,415,544,415" concept="1" />
+      <node id="3939777123864881576" at="544,415,545,415" concept="1" />
+      <node id="3939777123864946028" at="545,415,546,415" concept="1" />
+      <node id="3939777123864971785" at="546,415,547,415" concept="1" />
+      <node id="3939777123865030382" at="547,415,548,415" concept="1" />
+      <node id="3939777123865065287" at="548,415,549,415" concept="1" />
+      <node id="3939777123865117466" at="549,415,550,415" concept="1" />
+      <node id="3939777123865162092" at="550,415,551,415" concept="1" />
+      <node id="3939777123865224905" at="551,415,552,368" concept="1" />
+      <node id="3939777123865337766" at="552,368,553,368" concept="1" />
+      <node id="3939777123865366622" at="553,368,554,368" concept="1" />
+      <node id="3939777123865395919" at="554,368,555,368" concept="1" />
+      <node id="8267741397296102549" at="555,368,556,456" concept="1" />
+      <node id="8267741397296224408" at="556,456,557,409" concept="1" />
+      <node id="8267741397296289057" at="557,409,558,409" concept="1" />
+      <node id="8267741397296442776" at="558,409,559,409" concept="1" />
+      <node id="8267741397296477203" at="559,409,560,409" concept="1" />
+      <node id="8267741397296530035" at="560,409,561,362" concept="1" />
+      <node id="8267741397296578630" at="561,362,562,362" concept="1" />
+      <node id="8267741397296650326" at="562,362,563,362" concept="1" />
+      <node id="8267741397296625377" at="563,362,564,362" concept="1" />
+      <node id="8267741397299139368" at="564,362,565,411" concept="1" />
+      <node id="8267741397299214187" at="565,411,566,364" concept="1" />
+      <node id="8267741397299718191" at="566,364,567,364" concept="1" />
+      <node id="8267741397299362843" at="567,364,568,411" concept="1" />
+      <node id="8267741397299488134" at="568,411,569,364" concept="1" />
+      <node id="8267741397299665011" at="569,364,570,364" concept="1" />
+      <node id="8510667047123729214" at="573,42,574,53" concept="1" />
+      <node id="8510667047123729214" at="574,53,575,0" concept="5" />
+      <node id="8510667047123729214" at="575,0,576,47" concept="4" />
+      <node id="8510667047123729214" at="576,47,577,23" concept="1" />
+      <node id="6756272197011005754" at="577,23,578,25" concept="1" />
+      <node id="8510667047123729214" at="578,25,579,0" concept="5" />
+      <node id="8510667047123729214" at="579,0,580,0" concept="5" />
+      <node id="8510667047123729214" at="580,0,581,23" concept="4" />
+      <node id="3939777123861560418" at="581,23,582,118" concept="2" />
+      <node id="3939777123861582820" at="582,118,583,431" concept="2" />
+      <node id="1226764786737573091" at="583,431,584,2007" concept="2" />
+      <node id="3939777123862556456" at="584,2007,585,98" concept="1" />
+      <node id="6831796820141407691" at="585,98,586,98" concept="1" />
+      <node id="6756272197011005761" at="35,0,38,0" concept="0" trace="Board#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
+      <node id="6756272197011005761" at="39,0,42,0" concept="0" trace="Board#(LActOne/runtime/model/Operator;null)V" />
+      <node id="6756272197011005763" at="45,0,48,0" concept="0" trace="Elm#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
+      <node id="6756272197011005763" at="49,0,52,0" concept="0" trace="Elm#(LActOne/runtime/model/Operator;null)V" />
+      <node id="6756272197011005766" at="55,0,58,0" concept="0" trace="Line#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
+      <node id="6756272197011005766" at="59,0,62,0" concept="0" trace="Line#(LActOne/runtime/model/Operator;null)V" />
+      <node id="6756272197011005770" at="65,0,68,0" concept="0" trace="Block#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
+      <node id="6756272197011005770" at="69,0,72,0" concept="0" trace="Block#(LActOne/runtime/model/Operator;null)V" />
+      <node id="6756272197011005792" at="197,0,200,0" concept="7" trace="mkBoard#(LNewSolution_test/SLANT/Line;LNewSolution_test/SLANT/Line;LNewSolution_test/SLANT/Line;LNewSolution_test/SLANT/Line;LNewSolution_test/SLANT/Line;)LNewSolution_test/SLANT/Board;" />
+      <node id="6756272197011005898" at="200,0,203,0" concept="7" trace="mkLine#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="6756272197011008619" at="203,0,206,0" concept="7" trace="mkBlock#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LNewSolution_test/SLANT/Block;" />
+      <node id="6756272197011006089" at="206,0,209,0" concept="7" trace="_0#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006423" at="209,0,212,0" concept="7" trace="_1#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006171" at="212,0,215,0" concept="7" trace="_2#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006201" at="215,0,218,0" concept="7" trace="_3#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006233" at="218,0,221,0" concept="7" trace="_4#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006267" at="221,0,224,0" concept="7" trace="__#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006303" at="224,0,227,0" concept="7" trace="x#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006341" at="227,0,230,0" concept="7" trace="fs#()LNewSolution_test/SLANT/Elm;" />
+      <node id="6756272197011006381" at="230,0,233,0" concept="7" trace="bs#()LNewSolution_test/SLANT/Elm;" />
+      <node id="1226764786737576190" at="233,0,236,0" concept="7" trace="em#()LNewSolution_test/SLANT/Elm;" />
+      <node id="3939777123861014178" at="236,0,239,0" concept="7" trace="bl1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LNewSolution_test/SLANT/Block;" />
+      <node id="3939777123860619410" at="239,0,242,0" concept="7" trace="line1#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="3939777123860619501" at="242,0,245,0" concept="7" trace="line2#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="3939777123860619587" at="245,0,248,0" concept="7" trace="line3#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="3939777123860619680" at="248,0,251,0" concept="7" trace="line4#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="3939777123860619780" at="251,0,254,0" concept="7" trace="line5#(LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;LNewSolution_test/SLANT/Block;)LNewSolution_test/SLANT/Line;" />
+      <node id="1226764786739685063" at="254,0,257,0" concept="7" trace="correctBoard#(LNewSolution_test/SLANT/Board;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123860610745" at="257,0,260,0" concept="7" trace="correctLine#(LNewSolution_test/SLANT/Line;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="1226764786739685721" at="260,0,263,0" concept="7" trace="correctBlocks#(LNewSolution_test/SLANT/Block;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123861599508" at="263,0,266,0" concept="7" trace="correctBlock#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123861867229" at="266,0,269,0" concept="7" trace="correctBlockTrans#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123860611799" at="269,0,272,0" concept="7" trace="correctElements#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123861936639" at="272,0,275,0" concept="7" trace="correctx1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862651039" at="275,0,278,0" concept="7" trace="correctx2#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862656159" at="278,0,281,0" concept="7" trace="correctx3#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862656334" at="281,0,284,0" concept="7" trace="correctx4#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862656501" at="284,0,287,0" concept="7" trace="correctx5#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862656675" at="287,0,290,0" concept="7" trace="correctx6#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862656856" at="290,0,293,0" concept="7" trace="correctx7#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862657044" at="293,0,296,0" concept="7" trace="correctx8#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862657239" at="296,0,299,0" concept="7" trace="correctx9#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862657441" at="299,0,302,0" concept="7" trace="correctx10#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862657650" at="302,0,305,0" concept="7" trace="correctx11#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862657866" at="305,0,308,0" concept="7" trace="correctx12#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862658089" at="308,0,311,0" concept="7" trace="correctx13#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862658319" at="311,0,314,0" concept="7" trace="correctx14#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862658556" at="314,0,317,0" concept="7" trace="correctx15#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862658800" at="317,0,320,0" concept="7" trace="correctx16#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862659051" at="320,0,323,0" concept="7" trace="correctx17#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862659309" at="323,0,326,0" concept="7" trace="correctx18#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862659574" at="326,0,329,0" concept="7" trace="correctx19#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862776242" at="329,0,332,0" concept="7" trace="correctx20#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862776521" at="332,0,335,0" concept="7" trace="correctx21#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123863771280" at="335,0,338,0" concept="7" trace="correctx22#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397295530346" at="338,0,341,0" concept="7" trace="correctx23#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123861973438" at="341,0,344,0" concept="7" trace="correctxx1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864345282" at="344,0,347,0" concept="7" trace="correctxx2#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864354400" at="347,0,350,0" concept="7" trace="correctxx3#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864354880" at="350,0,353,0" concept="7" trace="correctxx4#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864345606" at="353,0,356,0" concept="7" trace="correctxx5#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864345927" at="356,0,359,0" concept="7" trace="correctxx6#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864346255" at="359,0,362,0" concept="7" trace="correctxx7#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864346590" at="362,0,365,0" concept="7" trace="correctxx8#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864346932" at="365,0,368,0" concept="7" trace="correctxx9#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864347281" at="368,0,371,0" concept="7" trace="correctxx10#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864347637" at="371,0,374,0" concept="7" trace="correctxx11#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864348000" at="374,0,377,0" concept="7" trace="correctxx12#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864348370" at="377,0,380,0" concept="7" trace="correctxx13#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864348747" at="380,0,383,0" concept="7" trace="correctxx14#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864349131" at="383,0,386,0" concept="7" trace="correctxx15#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864349522" at="386,0,389,0" concept="7" trace="correctxx16#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864349920" at="389,0,392,0" concept="7" trace="correctxx17#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864350325" at="392,0,395,0" concept="7" trace="correctxx18#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864350737" at="395,0,398,0" concept="7" trace="correctxx19#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864351156" at="398,0,401,0" concept="7" trace="correctxx20#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864351582" at="401,0,404,0" concept="7" trace="correctxx21#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864352015" at="404,0,407,0" concept="7" trace="correctxx22#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864352455" at="407,0,410,0" concept="7" trace="correctxx23#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864352902" at="410,0,413,0" concept="7" trace="correctxx24#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866307502" at="413,0,416,0" concept="7" trace="edge1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866308094" at="416,0,419,0" concept="7" trace="edge2#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866308593" at="419,0,422,0" concept="7" trace="edge3#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866309089" at="422,0,425,0" concept="7" trace="edge4#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866309592" at="425,0,428,0" concept="7" trace="edge5#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866310102" at="428,0,431,0" concept="7" trace="edge6#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866310619" at="431,0,434,0" concept="7" trace="edge7#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866311143" at="434,0,437,0" concept="7" trace="edge8#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866311674" at="437,0,440,0" concept="7" trace="edge9#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866334941" at="440,0,443,0" concept="7" trace="corner1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866335546" at="443,0,446,0" concept="7" trace="corner2#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866336133" at="446,0,449,0" concept="7" trace="corner3#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866336732" at="449,0,452,0" concept="7" trace="corner4#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866337321" at="452,0,455,0" concept="7" trace="corner5#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123866337941" at="455,0,458,0" concept="7" trace="corner6#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397299137420" at="458,0,461,0" concept="7" trace="corner7#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397299138049" at="461,0,464,0" concept="7" trace="corner8#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397299138685" at="464,0,467,0" concept="7" trace="corner9#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123862788290" at="467,0,470,0" concept="7" trace="checkSingle#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123863693756" at="470,0,473,0" concept="7" trace="checkDouble#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397296788331" at="473,0,476,0" concept="7" trace="checkEdges#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397296789007" at="476,0,479,0" concept="7" trace="checkCorners#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="3939777123864355412" at="479,0,482,0" concept="7" trace="multipleCheck1#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397298631080" at="482,0,485,0" concept="7" trace="MultipleCheck2#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397299124872" at="485,0,488,0" concept="7" trace="MultipleCheck3#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397294200154" at="488,0,491,0" concept="7" trace="checkSmallLoops#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8267741397301677752" at="491,0,494,0" concept="7" trace="checkSmall#(LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;LNewSolution_test/SLANT/Elm;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8510667047123729214" at="16,0,20,0" concept="7" trace="dummy_bool#()LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8510667047123729214" at="20,0,24,0" concept="7" trace="dummy_int#()LActOne/runtime/predefined/INTEGER/Int;" />
+      <node id="8510667047123729214" at="24,0,28,0" concept="7" trace="dummy_string#()LActOne/runtime/predefined/STRING/String;" />
+      <node id="8510667047123729214" at="28,0,32,0" concept="7" trace="dummy_any#()LActOne/runtime/predefined/ANY/Any;" />
+      <node id="8510667047123729214" at="573,0,588,0" concept="7" trace="main#([Ljava/lang/String;)V" />
+      <node id="8510667047123729214" at="495,0,572,0" concept="7" trace="initAxioms#()V" />
+      <scope id="6756272197011005761" at="35,48,36,24" />
+      <scope id="6756272197011005761" at="39,54,40,30" />
+      <scope id="6756272197011005763" at="45,46,46,24" />
+      <scope id="6756272197011005763" at="49,52,50,30" />
+      <scope id="6756272197011005766" at="55,47,56,24" />
+      <scope id="6756272197011005766" at="59,53,60,30" />
+      <scope id="6756272197011005770" at="65,48,66,24" />
+      <scope id="6756272197011005770" at="69,54,70,30" />
+      <scope id="6756272197011005792" at="197,96,198,75" />
+      <scope id="6756272197011005898" at="200,104,201,78" />
+      <scope id="6756272197011008619" at="203,86,204,70" />
+      <scope id="6756272197011006089" at="206,26,207,28" />
+      <scope id="6756272197011006423" at="209,26,210,28" />
+      <scope id="6756272197011006171" at="212,26,213,28" />
+      <scope id="6756272197011006201" at="215,26,216,28" />
+      <scope id="6756272197011006233" at="218,26,219,28" />
+      <scope id="6756272197011006267" at="221,26,222,28" />
+      <scope id="6756272197011006303" at="224,25,225,27" />
+      <scope id="6756272197011006341" at="227,26,228,28" />
+      <scope id="6756272197011006381" at="230,26,231,28" />
+      <scope id="1226764786737576190" at="233,26,234,28" />
+      <scope id="3939777123861014178" at="236,82,237,66" />
+      <scope id="3939777123860619410" at="239,103,240,77" />
+      <scope id="3939777123860619501" at="242,108,243,82" />
+      <scope id="3939777123860619587" at="245,108,246,82" />
+      <scope id="3939777123860619680" at="248,108,249,82" />
+      <scope id="3939777123860619780" at="251,108,252,82" />
+      <scope id="1226764786739685063" at="254,50,255,48" />
+      <scope id="3939777123860610745" at="257,47,258,46" />
+      <scope id="1226764786739685721" at="260,52,261,50" />
+      <scope id="3939777123861599508" at="263,95,264,79" />
+      <scope id="3939777123861867229" at="266,100,267,84" />
+      <scope id="3939777123860611799" at="269,98,270,82" />
+      <scope id="3939777123861936639" at="272,92,273,76" />
+      <scope id="3939777123862651039" at="275,92,276,76" />
+      <scope id="3939777123862656159" at="278,92,279,76" />
+      <scope id="3939777123862656334" at="281,92,282,76" />
+      <scope id="3939777123862656501" at="284,92,285,76" />
+      <scope id="3939777123862656675" at="287,92,288,76" />
+      <scope id="3939777123862656856" at="290,92,291,76" />
+      <scope id="3939777123862657044" at="293,92,294,76" />
+      <scope id="3939777123862657239" at="296,92,297,76" />
+      <scope id="3939777123862657441" at="299,93,300,77" />
+      <scope id="3939777123862657650" at="302,93,303,77" />
+      <scope id="3939777123862657866" at="305,93,306,77" />
+      <scope id="3939777123862658089" at="308,93,309,77" />
+      <scope id="3939777123862658319" at="311,93,312,77" />
+      <scope id="3939777123862658556" at="314,93,315,77" />
+      <scope id="3939777123862658800" at="317,98,318,82" />
+      <scope id="3939777123862659051" at="320,98,321,82" />
+      <scope id="3939777123862659309" at="323,98,324,82" />
+      <scope id="3939777123862659574" at="326,98,327,82" />
+      <scope id="3939777123862776242" at="329,98,330,82" />
+      <scope id="3939777123862776521" at="332,98,333,82" />
+      <scope id="3939777123863771280" at="335,98,336,82" />
+      <scope id="8267741397295530346" at="338,98,339,82" />
+      <scope id="3939777123861973438" at="341,98,342,82" />
+      <scope id="3939777123864345282" at="344,98,345,82" />
+      <scope id="3939777123864354400" at="347,98,348,82" />
+      <scope id="3939777123864354880" at="350,98,351,82" />
+      <scope id="3939777123864345606" at="353,98,354,82" />
+      <scope id="3939777123864345927" at="356,98,357,82" />
+      <scope id="3939777123864346255" at="359,98,360,82" />
+      <scope id="3939777123864346590" at="362,98,363,82" />
+      <scope id="3939777123864346932" at="365,98,366,82" />
+      <scope id="3939777123864347281" at="368,99,369,83" />
+      <scope id="3939777123864347637" at="371,99,372,83" />
+      <scope id="3939777123864348000" at="374,99,375,83" />
+      <scope id="3939777123864348370" at="377,99,378,83" />
+      <scope id="3939777123864348747" at="380,99,381,83" />
+      <scope id="3939777123864349131" at="383,99,384,83" />
+      <scope id="3939777123864349522" at="386,99,387,83" />
+      <scope id="3939777123864349920" at="389,99,390,83" />
+      <scope id="3939777123864350325" at="392,99,393,83" />
+      <scope id="3939777123864350737" at="395,99,396,83" />
+      <scope id="3939777123864351156" at="398,99,399,83" />
+      <scope id="3939777123864351582" at="401,99,402,83" />
+      <scope id="3939777123864352015" at="404,99,405,83" />
+      <scope id="3939777123864352455" at="407,99,408,83" />
+      <scope id="3939777123864352902" at="410,99,411,83" />
+      <scope id="3939777123866307502" at="413,93,414,77" />
+      <scope id="3939777123866308094" at="416,93,417,77" />
+      <scope id="3939777123866308593" at="419,93,420,77" />
+      <scope id="3939777123866309089" at="422,93,423,77" />
+      <scope id="3939777123866309592" at="425,93,426,77" />
+      <scope id="3939777123866310102" at="428,93,429,77" />
+      <scope id="3939777123866310619" at="431,93,432,77" />
+      <scope id="3939777123866311143" at="434,93,435,77" />
+      <scope id="3939777123866311674" at="437,93,438,77" />
+      <scope id="3939777123866334941" at="440,95,441,79" />
+      <scope id="3939777123866335546" at="443,95,444,79" />
+      <scope id="3939777123866336133" at="446,95,447,79" />
+      <scope id="3939777123866336732" at="449,95,450,79" />
+      <scope id="3939777123866337321" at="452,95,453,79" />
+      <scope id="3939777123866337941" at="455,95,456,79" />
+      <scope id="8267741397299137420" at="458,95,459,79" />
+      <scope id="8267741397299138049" at="461,95,462,79" />
+      <scope id="8267741397299138685" at="464,95,465,79" />
+      <scope id="3939777123862788290" at="467,99,468,83" />
+      <scope id="3939777123863693756" at="470,99,471,83" />
+      <scope id="8267741397296788331" at="473,98,474,82" />
+      <scope id="8267741397296789007" at="476,100,477,84" />
+      <scope id="3939777123864355412" at="479,102,480,86" />
+      <scope id="8267741397298631080" at="482,102,483,86" />
+      <scope id="8267741397299124872" at="485,102,486,86" />
+      <scope id="8267741397294200154" at="488,103,489,87" />
+      <scope id="8267741397301677752" at="491,98,492,82" />
+      <scope id="8510667047123729214" at="16,43,18,16" />
+      <scope id="8510667047123729214" at="20,41,22,16" />
+      <scope id="8510667047123729214" at="24,46,26,16" />
+      <scope id="8510667047123729214" at="28,37,30,16" />
+      <scope id="6756272197011005761" at="35,0,38,0">
+        <var name="kind" id="6756272197011005761" />
+        <var name="name" id="6756272197011005761" />
+      </scope>
+      <scope id="6756272197011005761" at="39,0,42,0">
+        <var name="operator" id="6756272197011005761" />
+        <var name="params" id="6756272197011005761" />
+      </scope>
+      <scope id="6756272197011005763" at="45,0,48,0">
+        <var name="kind" id="6756272197011005763" />
+        <var name="name" id="6756272197011005763" />
+      </scope>
+      <scope id="6756272197011005763" at="49,0,52,0">
+        <var name="operator" id="6756272197011005763" />
+        <var name="params" id="6756272197011005763" />
+      </scope>
+      <scope id="6756272197011005766" at="55,0,58,0">
+        <var name="kind" id="6756272197011005766" />
+        <var name="name" id="6756272197011005766" />
+      </scope>
+      <scope id="6756272197011005766" at="59,0,62,0">
+        <var name="operator" id="6756272197011005766" />
+        <var name="params" id="6756272197011005766" />
+      </scope>
+      <scope id="6756272197011005770" at="65,0,68,0">
+        <var name="kind" id="6756272197011005770" />
+        <var name="name" id="6756272197011005770" />
+      </scope>
+      <scope id="6756272197011005770" at="69,0,72,0">
+        <var name="operator" id="6756272197011005770" />
+        <var name="params" id="6756272197011005770" />
+      </scope>
+      <scope id="6756272197011005792" at="197,0,200,0">
+        <var name="Line_0" id="6756272197011005797" />
+        <var name="Line_1" id="6756272197011005812" />
+        <var name="Line_2" id="6756272197011005820" />
+        <var name="Line_3" id="6756272197011005829" />
+        <var name="Line_4" id="6756272197011005835" />
+      </scope>
+      <scope id="6756272197011005898" at="200,0,203,0">
+        <var name="Block_0" id="6756272197011005913" />
+        <var name="Block_1" id="3939777123860360481" />
+        <var name="Block_2" id="3939777123860363430" />
+        <var name="Block_3" id="3939777123860366380" />
+        <var name="Block_4" id="3939777123860369331" />
+      </scope>
+      <scope id="6756272197011008619" at="203,0,206,0">
+        <var name="Elm_0" id="6756272197011008739" />
+        <var name="Elm_1" id="6756272197011008744" />
+        <var name="Elm_2" id="6756272197011008748" />
+        <var name="Elm_3" id="6756272197011008755" />
+        <var name="Elm_4" id="6756272197011008763" />
+      </scope>
+      <scope id="6756272197011006089" at="206,0,209,0" />
+      <scope id="6756272197011006423" at="209,0,212,0" />
+      <scope id="6756272197011006171" at="212,0,215,0" />
+      <scope id="6756272197011006201" at="215,0,218,0" />
+      <scope id="6756272197011006233" at="218,0,221,0" />
+      <scope id="6756272197011006267" at="221,0,224,0" />
+      <scope id="6756272197011006303" at="224,0,227,0" />
+      <scope id="6756272197011006341" at="227,0,230,0" />
+      <scope id="6756272197011006381" at="230,0,233,0" />
+      <scope id="1226764786737576190" at="233,0,236,0" />
+      <scope id="3939777123861014178" at="236,0,239,0">
+        <var name="Elm_5" id="3939777123861014275" />
+        <var name="Elm_6" id="3939777123861014280" />
+        <var name="Elm_7" id="3939777123861014285" />
+        <var name="Elm_8" id="3939777123861014291" />
+        <var name="Elm_9" id="3939777123861014298" />
+      </scope>
+      <scope id="3939777123860619410" at="239,0,242,0">
+        <var name="Block_5" id="3939777123860619470" />
+        <var name="Block_6" id="3939777123860619475" />
+        <var name="Block_7" id="3939777123860619480" />
+        <var name="Block_8" id="3939777123860619486" />
+        <var name="Block_9" id="3939777123860619493" />
+      </scope>
+      <scope id="3939777123860619501" at="242,0,245,0">
+        <var name="Block_10" id="3939777123860619502" />
+        <var name="Block_11" id="3939777123860619503" />
+        <var name="Block_12" id="3939777123860619504" />
+        <var name="Block_13" id="3939777123860619505" />
+        <var name="Block_14" id="3939777123860619506" />
+      </scope>
+      <scope id="3939777123860619587" at="245,0,248,0">
+        <var name="Block_15" id="3939777123860619588" />
+        <var name="Block_16" id="3939777123860619589" />
+        <var name="Block_17" id="3939777123860619590" />
+        <var name="Block_18" id="3939777123860619591" />
+        <var name="Block_19" id="3939777123860619592" />
+      </scope>
+      <scope id="3939777123860619680" at="248,0,251,0">
+        <var name="Block_20" id="3939777123860619681" />
+        <var name="Block_21" id="3939777123860619682" />
+        <var name="Block_22" id="3939777123860619683" />
+        <var name="Block_23" id="3939777123860619684" />
+        <var name="Block_24" id="3939777123860619685" />
+      </scope>
+      <scope id="3939777123860619780" at="251,0,254,0">
+        <var name="Block_25" id="3939777123860619781" />
+        <var name="Block_26" id="3939777123860619782" />
+        <var name="Block_27" id="3939777123860619783" />
+        <var name="Block_28" id="3939777123860619784" />
+        <var name="Block_29" id="3939777123860619785" />
+      </scope>
+      <scope id="1226764786739685063" at="254,0,257,0">
+        <var name="Board_0" id="1226764786739685521" />
+      </scope>
+      <scope id="3939777123860610745" at="257,0,260,0">
+        <var name="Line_5" id="3939777123860610906" />
+      </scope>
+      <scope id="1226764786739685721" at="260,0,263,0">
+        <var name="Block_30" id="1226764786739685722" />
+      </scope>
+      <scope id="3939777123861599508" at="263,0,266,0">
+        <var name="Elm_10" id="3939777123861599509" />
+        <var name="Elm_11" id="3939777123861764419" />
+        <var name="Elm_12" id="3939777123861766158" />
+        <var name="Elm_13" id="3939777123861767898" />
+        <var name="Elm_14" id="3939777123861769639" />
+      </scope>
+      <scope id="3939777123861867229" at="266,0,269,0">
+        <var name="Elm_15" id="3939777123861867230" />
+        <var name="Elm_16" id="3939777123861867231" />
+        <var name="Elm_17" id="3939777123861867232" />
+        <var name="Elm_18" id="3939777123861867233" />
+        <var name="Elm_19" id="3939777123861867234" />
+      </scope>
+      <scope id="3939777123860611799" at="269,0,272,0">
+        <var name="Elm_20" id="3939777123860611854" />
+        <var name="Elm_21" id="3939777123860661255" />
+        <var name="Elm_22" id="3939777123860661260" />
+        <var name="Elm_23" id="3939777123860661266" />
+        <var name="Elm_24" id="3939777123860661273" />
+      </scope>
+      <scope id="3939777123861936639" at="272,0,275,0">
+        <var name="Elm_25" id="3939777123861936814" />
+        <var name="Elm_26" id="3939777123861936829" />
+        <var name="Elm_27" id="3939777123861936834" />
+        <var name="Elm_28" id="3939777123861936840" />
+        <var name="Elm_29" id="3939777123861936845" />
+      </scope>
+      <scope id="3939777123862651039" at="275,0,278,0">
+        <var name="Elm_30" id="3939777123862651040" />
+        <var name="Elm_31" id="3939777123862651041" />
+        <var name="Elm_32" id="3939777123862651042" />
+        <var name="Elm_33" id="3939777123862651043" />
+        <var name="Elm_34" id="3939777123862651044" />
+      </scope>
+      <scope id="3939777123862656159" at="278,0,281,0">
+        <var name="Elm_35" id="3939777123862656160" />
+        <var name="Elm_36" id="3939777123862656161" />
+        <var name="Elm_37" id="3939777123862656162" />
+        <var name="Elm_38" id="3939777123862656163" />
+        <var name="Elm_39" id="3939777123862656164" />
+      </scope>
+      <scope id="3939777123862656334" at="281,0,284,0">
+        <var name="Elm_40" id="3939777123862656335" />
+        <var name="Elm_41" id="3939777123862656336" />
+        <var name="Elm_42" id="3939777123862656337" />
+        <var name="Elm_43" id="3939777123862656338" />
+        <var name="Elm_44" id="3939777123862656339" />
+      </scope>
+      <scope id="3939777123862656501" at="284,0,287,0">
+        <var name="Elm_45" id="3939777123862656502" />
+        <var name="Elm_46" id="3939777123862656503" />
+        <var name="Elm_47" id="3939777123862656504" />
+        <var name="Elm_48" id="3939777123862656505" />
+        <var name="Elm_49" id="3939777123862656506" />
+      </scope>
+      <scope id="3939777123862656675" at="287,0,290,0">
+        <var name="Elm_50" id="3939777123862656676" />
+        <var name="Elm_51" id="3939777123862656677" />
+        <var name="Elm_52" id="3939777123862656678" />
+        <var name="Elm_53" id="3939777123862656679" />
+        <var name="Elm_54" id="3939777123862656680" />
+      </scope>
+      <scope id="3939777123862656856" at="290,0,293,0">
+        <var name="Elm_55" id="3939777123862656857" />
+        <var name="Elm_56" id="3939777123862656858" />
+        <var name="Elm_57" id="3939777123862656859" />
+        <var name="Elm_58" id="3939777123862656860" />
+        <var name="Elm_59" id="3939777123862656861" />
+      </scope>
+      <scope id="3939777123862657044" at="293,0,296,0">
+        <var name="Elm_60" id="3939777123862657045" />
+        <var name="Elm_61" id="3939777123862657046" />
+        <var name="Elm_62" id="3939777123862657047" />
+        <var name="Elm_63" id="3939777123862657048" />
+        <var name="Elm_64" id="3939777123862657049" />
+      </scope>
+      <scope id="3939777123862657239" at="296,0,299,0">
+        <var name="Elm_65" id="3939777123862657240" />
+        <var name="Elm_66" id="3939777123862657241" />
+        <var name="Elm_67" id="3939777123862657242" />
+        <var name="Elm_68" id="3939777123862657243" />
+        <var name="Elm_69" id="3939777123862657244" />
+      </scope>
+      <scope id="3939777123862657441" at="299,0,302,0">
+        <var name="Elm_70" id="3939777123862657442" />
+        <var name="Elm_71" id="3939777123862657443" />
+        <var name="Elm_72" id="3939777123862657444" />
+        <var name="Elm_73" id="3939777123862657445" />
+        <var name="Elm_74" id="3939777123862657446" />
+      </scope>
+      <scope id="3939777123862657650" at="302,0,305,0">
+        <var name="Elm_75" id="3939777123862657651" />
+        <var name="Elm_76" id="3939777123862657652" />
+        <var name="Elm_77" id="3939777123862657653" />
+        <var name="Elm_78" id="3939777123862657654" />
+        <var name="Elm_79" id="3939777123862657655" />
+      </scope>
+      <scope id="3939777123862657866" at="305,0,308,0">
+        <var name="Elm_80" id="3939777123862657867" />
+        <var name="Elm_81" id="3939777123862657868" />
+        <var name="Elm_82" id="3939777123862657869" />
+        <var name="Elm_83" id="3939777123862657870" />
+        <var name="Elm_84" id="3939777123862657871" />
+      </scope>
+      <scope id="3939777123862658089" at="308,0,311,0">
+        <var name="Elm_85" id="3939777123862658090" />
+        <var name="Elm_86" id="3939777123862658091" />
+        <var name="Elm_87" id="3939777123862658092" />
+        <var name="Elm_88" id="3939777123862658093" />
+        <var name="Elm_89" id="3939777123862658094" />
+      </scope>
+      <scope id="3939777123862658319" at="311,0,314,0">
+        <var name="Elm_90" id="3939777123862658320" />
+        <var name="Elm_91" id="3939777123862658321" />
+        <var name="Elm_92" id="3939777123862658322" />
+        <var name="Elm_93" id="3939777123862658323" />
+        <var name="Elm_94" id="3939777123862658324" />
+      </scope>
+      <scope id="3939777123862658556" at="314,0,317,0">
+        <var name="Elm_95" id="3939777123862658557" />
+        <var name="Elm_96" id="3939777123862658558" />
+        <var name="Elm_97" id="3939777123862658559" />
+        <var name="Elm_98" id="3939777123862658560" />
+        <var name="Elm_99" id="3939777123862658561" />
+      </scope>
+      <scope id="3939777123862658800" at="317,0,320,0">
+        <var name="Elm_100" id="3939777123862658801" />
+        <var name="Elm_101" id="3939777123862658802" />
+        <var name="Elm_102" id="3939777123862658803" />
+        <var name="Elm_103" id="3939777123862658804" />
+        <var name="Elm_104" id="3939777123862658805" />
+      </scope>
+      <scope id="3939777123862659051" at="320,0,323,0">
+        <var name="Elm_105" id="3939777123862659052" />
+        <var name="Elm_106" id="3939777123862659053" />
+        <var name="Elm_107" id="3939777123862659054" />
+        <var name="Elm_108" id="3939777123862659055" />
+        <var name="Elm_109" id="3939777123862659056" />
+      </scope>
+      <scope id="3939777123862659309" at="323,0,326,0">
+        <var name="Elm_110" id="3939777123862659310" />
+        <var name="Elm_111" id="3939777123862659311" />
+        <var name="Elm_112" id="3939777123862659312" />
+        <var name="Elm_113" id="3939777123862659313" />
+        <var name="Elm_114" id="3939777123862659314" />
+      </scope>
+      <scope id="3939777123862659574" at="326,0,329,0">
+        <var name="Elm_115" id="3939777123862659575" />
+        <var name="Elm_116" id="3939777123862659576" />
+        <var name="Elm_117" id="3939777123862659577" />
+        <var name="Elm_118" id="3939777123862659578" />
+        <var name="Elm_119" id="3939777123862659579" />
+      </scope>
+      <scope id="3939777123862776242" at="329,0,332,0">
+        <var name="Elm_120" id="3939777123862776243" />
+        <var name="Elm_121" id="3939777123862776244" />
+        <var name="Elm_122" id="3939777123862776245" />
+        <var name="Elm_123" id="3939777123862776246" />
+        <var name="Elm_124" id="3939777123862776247" />
+      </scope>
+      <scope id="3939777123862776521" at="332,0,335,0">
+        <var name="Elm_125" id="3939777123862776522" />
+        <var name="Elm_126" id="3939777123862776523" />
+        <var name="Elm_127" id="3939777123862776524" />
+        <var name="Elm_128" id="3939777123862776525" />
+        <var name="Elm_129" id="3939777123862776526" />
+      </scope>
+      <scope id="3939777123863771280" at="335,0,338,0">
+        <var name="Elm_130" id="3939777123863771281" />
+        <var name="Elm_131" id="3939777123863771282" />
+        <var name="Elm_132" id="3939777123863771283" />
+        <var name="Elm_133" id="3939777123863771284" />
+        <var name="Elm_134" id="3939777123863771285" />
+      </scope>
+      <scope id="8267741397295530346" at="338,0,341,0">
+        <var name="Elm_135" id="8267741397295530347" />
+        <var name="Elm_136" id="8267741397295530348" />
+        <var name="Elm_137" id="8267741397295530349" />
+        <var name="Elm_138" id="8267741397295530350" />
+        <var name="Elm_139" id="8267741397295530351" />
+      </scope>
+      <scope id="3939777123861973438" at="341,0,344,0">
+        <var name="Elm_140" id="3939777123861973439" />
+        <var name="Elm_141" id="3939777123861973440" />
+        <var name="Elm_142" id="3939777123861973441" />
+        <var name="Elm_143" id="3939777123861973442" />
+        <var name="Elm_144" id="3939777123861973443" />
+      </scope>
+      <scope id="3939777123864345282" at="344,0,347,0">
+        <var name="Elm_145" id="3939777123864345283" />
+        <var name="Elm_146" id="3939777123864345284" />
+        <var name="Elm_147" id="3939777123864345285" />
+        <var name="Elm_148" id="3939777123864345286" />
+        <var name="Elm_149" id="3939777123864345287" />
+      </scope>
+      <scope id="3939777123864354400" at="347,0,350,0">
+        <var name="Elm_150" id="3939777123864354401" />
+        <var name="Elm_151" id="3939777123864354402" />
+        <var name="Elm_152" id="3939777123864354403" />
+        <var name="Elm_153" id="3939777123864354404" />
+        <var name="Elm_154" id="3939777123864354405" />
+      </scope>
+      <scope id="3939777123864354880" at="350,0,353,0">
+        <var name="Elm_155" id="3939777123864354881" />
+        <var name="Elm_156" id="3939777123864354882" />
+        <var name="Elm_157" id="3939777123864354883" />
+        <var name="Elm_158" id="3939777123864354884" />
+        <var name="Elm_159" id="3939777123864354885" />
+      </scope>
+      <scope id="3939777123864345606" at="353,0,356,0">
+        <var name="Elm_160" id="3939777123864345607" />
+        <var name="Elm_161" id="3939777123864345608" />
+        <var name="Elm_162" id="3939777123864345609" />
+        <var name="Elm_163" id="3939777123864345610" />
+        <var name="Elm_164" id="3939777123864345611" />
+      </scope>
+      <scope id="3939777123864345927" at="356,0,359,0">
+        <var name="Elm_165" id="3939777123864345928" />
+        <var name="Elm_166" id="3939777123864345929" />
+        <var name="Elm_167" id="3939777123864345930" />
+        <var name="Elm_168" id="3939777123864345931" />
+        <var name="Elm_169" id="3939777123864345932" />
+      </scope>
+      <scope id="3939777123864346255" at="359,0,362,0">
+        <var name="Elm_170" id="3939777123864346256" />
+        <var name="Elm_171" id="3939777123864346257" />
+        <var name="Elm_172" id="3939777123864346258" />
+        <var name="Elm_173" id="3939777123864346259" />
+        <var name="Elm_174" id="3939777123864346260" />
+      </scope>
+      <scope id="3939777123864346590" at="362,0,365,0">
+        <var name="Elm_175" id="3939777123864346591" />
+        <var name="Elm_176" id="3939777123864346592" />
+        <var name="Elm_177" id="3939777123864346593" />
+        <var name="Elm_178" id="3939777123864346594" />
+        <var name="Elm_179" id="3939777123864346595" />
+      </scope>
+      <scope id="3939777123864346932" at="365,0,368,0">
+        <var name="Elm_180" id="3939777123864346933" />
+        <var name="Elm_181" id="3939777123864346934" />
+        <var name="Elm_182" id="3939777123864346935" />
+        <var name="Elm_183" id="3939777123864346936" />
+        <var name="Elm_184" id="3939777123864346937" />
+      </scope>
+      <scope id="3939777123864347281" at="368,0,371,0">
+        <var name="Elm_185" id="3939777123864347282" />
+        <var name="Elm_186" id="3939777123864347283" />
+        <var name="Elm_187" id="3939777123864347284" />
+        <var name="Elm_188" id="3939777123864347285" />
+        <var name="Elm_189" id="3939777123864347286" />
+      </scope>
+      <scope id="3939777123864347637" at="371,0,374,0">
+        <var name="Elm_190" id="3939777123864347638" />
+        <var name="Elm_191" id="3939777123864347639" />
+        <var name="Elm_192" id="3939777123864347640" />
+        <var name="Elm_193" id="3939777123864347641" />
+        <var name="Elm_194" id="3939777123864347642" />
+      </scope>
+      <scope id="3939777123864348000" at="374,0,377,0">
+        <var name="Elm_195" id="3939777123864348001" />
+        <var name="Elm_196" id="3939777123864348002" />
+        <var name="Elm_197" id="3939777123864348003" />
+        <var name="Elm_198" id="3939777123864348004" />
+        <var name="Elm_199" id="3939777123864348005" />
+      </scope>
+      <scope id="3939777123864348370" at="377,0,380,0">
+        <var name="Elm_200" id="3939777123864348371" />
+        <var name="Elm_201" id="3939777123864348372" />
+        <var name="Elm_202" id="3939777123864348373" />
+        <var name="Elm_203" id="3939777123864348374" />
+        <var name="Elm_204" id="3939777123864348375" />
+      </scope>
+      <scope id="3939777123864348747" at="380,0,383,0">
+        <var name="Elm_205" id="3939777123864348748" />
+        <var name="Elm_206" id="3939777123864348749" />
+        <var name="Elm_207" id="3939777123864348750" />
+        <var name="Elm_208" id="3939777123864348751" />
+        <var name="Elm_209" id="3939777123864348752" />
+      </scope>
+      <scope id="3939777123864349131" at="383,0,386,0">
+        <var name="Elm_210" id="3939777123864349132" />
+        <var name="Elm_211" id="3939777123864349133" />
+        <var name="Elm_212" id="3939777123864349134" />
+        <var name="Elm_213" id="3939777123864349135" />
+        <var name="Elm_214" id="3939777123864349136" />
+      </scope>
+      <scope id="3939777123864349522" at="386,0,389,0">
+        <var name="Elm_215" id="3939777123864349523" />
+        <var name="Elm_216" id="3939777123864349524" />
+        <var name="Elm_217" id="3939777123864349525" />
+        <var name="Elm_218" id="3939777123864349526" />
+        <var name="Elm_219" id="3939777123864349527" />
+      </scope>
+      <scope id="3939777123864349920" at="389,0,392,0">
+        <var name="Elm_220" id="3939777123864349921" />
+        <var name="Elm_221" id="3939777123864349922" />
+        <var name="Elm_222" id="3939777123864349923" />
+        <var name="Elm_223" id="3939777123864349924" />
+        <var name="Elm_224" id="3939777123864349925" />
+      </scope>
+      <scope id="3939777123864350325" at="392,0,395,0">
+        <var name="Elm_225" id="3939777123864350326" />
+        <var name="Elm_226" id="3939777123864350327" />
+        <var name="Elm_227" id="3939777123864350328" />
+        <var name="Elm_228" id="3939777123864350329" />
+        <var name="Elm_229" id="3939777123864350330" />
+      </scope>
+      <scope id="3939777123864350737" at="395,0,398,0">
+        <var name="Elm_230" id="3939777123864350738" />
+        <var name="Elm_231" id="3939777123864350739" />
+        <var name="Elm_232" id="3939777123864350740" />
+        <var name="Elm_233" id="3939777123864350741" />
+        <var name="Elm_234" id="3939777123864350742" />
+      </scope>
+      <scope id="3939777123864351156" at="398,0,401,0">
+        <var name="Elm_235" id="3939777123864351157" />
+        <var name="Elm_236" id="3939777123864351158" />
+        <var name="Elm_237" id="3939777123864351159" />
+        <var name="Elm_238" id="3939777123864351160" />
+        <var name="Elm_239" id="3939777123864351161" />
+      </scope>
+      <scope id="3939777123864351582" at="401,0,404,0">
+        <var name="Elm_240" id="3939777123864351583" />
+        <var name="Elm_241" id="3939777123864351584" />
+        <var name="Elm_242" id="3939777123864351585" />
+        <var name="Elm_243" id="3939777123864351586" />
+        <var name="Elm_244" id="3939777123864351587" />
+      </scope>
+      <scope id="3939777123864352015" at="404,0,407,0">
+        <var name="Elm_245" id="3939777123864352016" />
+        <var name="Elm_246" id="3939777123864352017" />
+        <var name="Elm_247" id="3939777123864352018" />
+        <var name="Elm_248" id="3939777123864352019" />
+        <var name="Elm_249" id="3939777123864352020" />
+      </scope>
+      <scope id="3939777123864352455" at="407,0,410,0">
+        <var name="Elm_250" id="3939777123864352456" />
+        <var name="Elm_251" id="3939777123864352457" />
+        <var name="Elm_252" id="3939777123864352458" />
+        <var name="Elm_253" id="3939777123864352459" />
+        <var name="Elm_254" id="3939777123864352460" />
+      </scope>
+      <scope id="3939777123864352902" at="410,0,413,0">
+        <var name="Elm_255" id="3939777123864352903" />
+        <var name="Elm_256" id="3939777123864352904" />
+        <var name="Elm_257" id="3939777123864352905" />
+        <var name="Elm_258" id="3939777123864352906" />
+        <var name="Elm_259" id="3939777123864352907" />
+      </scope>
+      <scope id="3939777123866307502" at="413,0,416,0">
+        <var name="Elm_260" id="3939777123866307503" />
+        <var name="Elm_261" id="3939777123866307504" />
+        <var name="Elm_262" id="3939777123866307505" />
+        <var name="Elm_263" id="3939777123866307506" />
+        <var name="Elm_264" id="3939777123866307507" />
+      </scope>
+      <scope id="3939777123866308094" at="416,0,419,0">
+        <var name="Elm_265" id="3939777123866308095" />
+        <var name="Elm_266" id="3939777123866308096" />
+        <var name="Elm_267" id="3939777123866308097" />
+        <var name="Elm_268" id="3939777123866308098" />
+        <var name="Elm_269" id="3939777123866308099" />
+      </scope>
+      <scope id="3939777123866308593" at="419,0,422,0">
+        <var name="Elm_270" id="3939777123866308594" />
+        <var name="Elm_271" id="3939777123866308595" />
+        <var name="Elm_272" id="3939777123866308596" />
+        <var name="Elm_273" id="3939777123866308597" />
+        <var name="Elm_274" id="3939777123866308598" />
+      </scope>
+      <scope id="3939777123866309089" at="422,0,425,0">
+        <var name="Elm_275" id="3939777123866309090" />
+        <var name="Elm_276" id="3939777123866309091" />
+        <var name="Elm_277" id="3939777123866309092" />
+        <var name="Elm_278" id="3939777123866309093" />
+        <var name="Elm_279" id="3939777123866309094" />
+      </scope>
+      <scope id="3939777123866309592" at="425,0,428,0">
+        <var name="Elm_280" id="3939777123866309593" />
+        <var name="Elm_281" id="3939777123866309594" />
+        <var name="Elm_282" id="3939777123866309595" />
+        <var name="Elm_283" id="3939777123866309596" />
+        <var name="Elm_284" id="3939777123866309597" />
+      </scope>
+      <scope id="3939777123866310102" at="428,0,431,0">
+        <var name="Elm_285" id="3939777123866310103" />
+        <var name="Elm_286" id="3939777123866310104" />
+        <var name="Elm_287" id="3939777123866310105" />
+        <var name="Elm_288" id="3939777123866310106" />
+        <var name="Elm_289" id="3939777123866310107" />
+      </scope>
+      <scope id="3939777123866310619" at="431,0,434,0">
+        <var name="Elm_290" id="3939777123866310620" />
+        <var name="Elm_291" id="3939777123866310621" />
+        <var name="Elm_292" id="3939777123866310622" />
+        <var name="Elm_293" id="3939777123866310623" />
+        <var name="Elm_294" id="3939777123866310624" />
+      </scope>
+      <scope id="3939777123866311143" at="434,0,437,0">
+        <var name="Elm_295" id="3939777123866311144" />
+        <var name="Elm_296" id="3939777123866311145" />
+        <var name="Elm_297" id="3939777123866311146" />
+        <var name="Elm_298" id="3939777123866311147" />
+        <var name="Elm_299" id="3939777123866311148" />
+      </scope>
+      <scope id="3939777123866311674" at="437,0,440,0">
+        <var name="Elm_300" id="3939777123866311675" />
+        <var name="Elm_301" id="3939777123866311676" />
+        <var name="Elm_302" id="3939777123866311677" />
+        <var name="Elm_303" id="3939777123866311678" />
+        <var name="Elm_304" id="3939777123866311679" />
+      </scope>
+      <scope id="3939777123866334941" at="440,0,443,0">
+        <var name="Elm_305" id="3939777123866334942" />
+        <var name="Elm_306" id="3939777123866334943" />
+        <var name="Elm_307" id="3939777123866334944" />
+        <var name="Elm_308" id="3939777123866334945" />
+        <var name="Elm_309" id="3939777123866334946" />
+      </scope>
+      <scope id="3939777123866335546" at="443,0,446,0">
+        <var name="Elm_310" id="3939777123866335547" />
+        <var name="Elm_311" id="3939777123866335548" />
+        <var name="Elm_312" id="3939777123866335549" />
+        <var name="Elm_313" id="3939777123866335550" />
+        <var name="Elm_314" id="3939777123866335551" />
+      </scope>
+      <scope id="3939777123866336133" at="446,0,449,0">
+        <var name="Elm_315" id="3939777123866336134" />
+        <var name="Elm_316" id="3939777123866336135" />
+        <var name="Elm_317" id="3939777123866336136" />
+        <var name="Elm_318" id="3939777123866336137" />
+        <var name="Elm_319" id="3939777123866336138" />
+      </scope>
+      <scope id="3939777123866336732" at="449,0,452,0">
+        <var name="Elm_320" id="3939777123866336733" />
+        <var name="Elm_321" id="3939777123866336734" />
+        <var name="Elm_322" id="3939777123866336735" />
+        <var name="Elm_323" id="3939777123866336736" />
+        <var name="Elm_324" id="3939777123866336737" />
+      </scope>
+      <scope id="3939777123866337321" at="452,0,455,0">
+        <var name="Elm_325" id="3939777123866337322" />
+        <var name="Elm_326" id="3939777123866337323" />
+        <var name="Elm_327" id="3939777123866337324" />
+        <var name="Elm_328" id="3939777123866337325" />
+        <var name="Elm_329" id="3939777123866337326" />
+      </scope>
+      <scope id="3939777123866337941" at="455,0,458,0">
+        <var name="Elm_330" id="3939777123866337942" />
+        <var name="Elm_331" id="3939777123866337943" />
+        <var name="Elm_332" id="3939777123866337944" />
+        <var name="Elm_333" id="3939777123866337945" />
+        <var name="Elm_334" id="3939777123866337946" />
+      </scope>
+      <scope id="8267741397299137420" at="458,0,461,0">
+        <var name="Elm_335" id="8267741397299137421" />
+        <var name="Elm_336" id="8267741397299137422" />
+        <var name="Elm_337" id="8267741397299137423" />
+        <var name="Elm_338" id="8267741397299137424" />
+        <var name="Elm_339" id="8267741397299137425" />
+      </scope>
+      <scope id="8267741397299138049" at="461,0,464,0">
+        <var name="Elm_340" id="8267741397299138050" />
+        <var name="Elm_341" id="8267741397299138051" />
+        <var name="Elm_342" id="8267741397299138052" />
+        <var name="Elm_343" id="8267741397299138053" />
+        <var name="Elm_344" id="8267741397299138054" />
+      </scope>
+      <scope id="8267741397299138685" at="464,0,467,0">
+        <var name="Elm_345" id="8267741397299138686" />
+        <var name="Elm_346" id="8267741397299138687" />
+        <var name="Elm_347" id="8267741397299138688" />
+        <var name="Elm_348" id="8267741397299138689" />
+        <var name="Elm_349" id="8267741397299138690" />
+      </scope>
+      <scope id="3939777123862788290" at="467,0,470,0">
+        <var name="Elm_350" id="3939777123862788582" />
+        <var name="Elm_351" id="3939777123862788592" />
+        <var name="Elm_352" id="3939777123862788597" />
+        <var name="Elm_353" id="3939777123862788603" />
+        <var name="Elm_354" id="3939777123862788610" />
+      </scope>
+      <scope id="3939777123863693756" at="470,0,473,0">
+        <var name="Elm_355" id="3939777123863693757" />
+        <var name="Elm_356" id="3939777123863693758" />
+        <var name="Elm_357" id="3939777123863693759" />
+        <var name="Elm_358" id="3939777123863693760" />
+        <var name="Elm_359" id="3939777123863693761" />
+      </scope>
+      <scope id="8267741397296788331" at="473,0,476,0">
+        <var name="Elm_360" id="8267741397296788332" />
+        <var name="Elm_361" id="8267741397296788333" />
+        <var name="Elm_362" id="8267741397296788334" />
+        <var name="Elm_363" id="8267741397296788335" />
+        <var name="Elm_364" id="8267741397296788336" />
+      </scope>
+      <scope id="8267741397296789007" at="476,0,479,0">
+        <var name="Elm_365" id="8267741397296789008" />
+        <var name="Elm_366" id="8267741397296789009" />
+        <var name="Elm_367" id="8267741397296789010" />
+        <var name="Elm_368" id="8267741397296789011" />
+        <var name="Elm_369" id="8267741397296789012" />
+      </scope>
+      <scope id="3939777123864355412" at="479,0,482,0">
+        <var name="Elm_370" id="3939777123864355895" />
+        <var name="Elm_371" id="3939777123864355910" />
+        <var name="Elm_372" id="3939777123864355915" />
+        <var name="Elm_373" id="3939777123864355919" />
+        <var name="Elm_374" id="3939777123864355924" />
+      </scope>
+      <scope id="8267741397298631080" at="482,0,485,0">
+        <var name="Elm_375" id="8267741397298631081" />
+        <var name="Elm_376" id="8267741397298631082" />
+        <var name="Elm_377" id="8267741397298631083" />
+        <var name="Elm_378" id="8267741397298631084" />
+        <var name="Elm_379" id="8267741397298631085" />
+      </scope>
+      <scope id="8267741397299124872" at="485,0,488,0">
+        <var name="Elm_380" id="8267741397299124873" />
+        <var name="Elm_381" id="8267741397299124874" />
+        <var name="Elm_382" id="8267741397299124875" />
+        <var name="Elm_383" id="8267741397299124876" />
+        <var name="Elm_384" id="8267741397299124877" />
+      </scope>
+      <scope id="8267741397294200154" at="488,0,491,0">
+        <var name="Elm_385" id="8267741397294200770" />
+        <var name="Elm_386" id="8267741397294755157" />
+        <var name="Elm_387" id="8267741397294765196" />
+        <var name="Elm_388" id="8267741397294775236" />
+        <var name="Elm_389" id="8267741397294775241" />
+      </scope>
+      <scope id="8267741397301677752" at="491,0,494,0">
+        <var name="Elm_390" id="8267741397301677753" />
+        <var name="Elm_391" id="8267741397301677754" />
+        <var name="Elm_392" id="8267741397301677755" />
+        <var name="Elm_393" id="8267741397301677756" />
+        <var name="Elm_394" id="8267741397301677757" />
+      </scope>
+      <scope id="8510667047123729214" at="16,0,20,0" />
+      <scope id="8510667047123729214" at="20,0,24,0" />
+      <scope id="8510667047123729214" at="24,0,28,0" />
+      <scope id="8510667047123729214" at="28,0,32,0" />
+      <scope id="8510667047123729214" at="573,42,586,98">
+        <var name="LineTest1" id="3939777123861582820" />
+        <var name="sample1" id="1226764786737573091" />
+        <var name="test1" id="3939777123861560418" />
+      </scope>
+      <scope id="8510667047123729214" at="573,0,588,0">
+        <var name="args" id="8510667047123729214" />
+      </scope>
+      <scope id="8510667047123729214" at="495,40,570,364" />
+      <scope id="8510667047123729214" at="495,0,572,0" />
+      <unit id="6756272197011005761" at="33,0,43,0" name="NewSolution_test.SLANT$Board" />
+      <unit id="6756272197011005763" at="43,0,53,0" name="NewSolution_test.SLANT$Elm" />
+      <unit id="6756272197011005766" at="53,0,63,0" name="NewSolution_test.SLANT$Line" />
+      <unit id="6756272197011005770" at="63,0,73,0" name="NewSolution_test.SLANT$Block" />
+      <unit id="8510667047123729214" at="14,0,590,0" name="NewSolution_test.SLANT" />
+    </file>
+  </root>
+</debug-info>
+
