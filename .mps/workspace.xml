@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BreakpointManager">
-    <breakpoint kind="JAVA_LINE_BREAKPOINT">
-      <JavaBreakpointInfo>
-        <option name="location" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test)/3939777123862556456" />
-        <option name="mySuspendPolicy" value="2" />
-        <option name="myIsLogMessage" value="false" />
-        <option name="myCreationTime" value="1601969979739" />
-        <option name="myIsEnabled" value="true" />
-      </JavaBreakpointInfo>
-    </breakpoint>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="" />
+    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +65,9 @@
       </view>
     </search_options>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
       <array>
@@ -103,6 +101,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1iJQxFKHxhHQs7Tbt2AWZqTnm3O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
@@ -182,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/leiv/DataProject" />
   </component>
   <component name="RunManager" selected="Java Application.Node SLANT">
     <configuration name="All Tests in Project" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -338,34 +337,43 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="849" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601624686732" />
-    <state x="1138" y="313" key="FileChooserDialogImpl" timestamp="1601970933862">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="1138" y="346" key="FileChooserDialogImpl" timestamp="1601971412331">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="1138" y="313" key="FileChooserDialogImpl/0.23.1920.1057@0.23.1920.1057" timestamp="1601970933862" />
+    <state x="1138" y="346" key="FileChooserDialogImpl/0.23.1920.1177@0.23.1920.1177" timestamp="1601971412331" />
     <state x="1170" y="527" key="FileChooserDialogImpl/0.23.3440.1417@0.23.3440.1417" timestamp="1601754363757" />
-    <state width="1878" height="366" key="GridCell.Tab.0.bottom" timestamp="1601970032840">
+    <state x="726" y="548" width="656" height="204" key="Github.ShareDialog" timestamp="1601971174213">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="366" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724627" />
-    <state width="1878" height="366" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032840" />
+    <state x="726" y="548" width="656" height="204" key="Github.ShareDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971174213" />
+    <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog" timestamp="1601971194879">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
+    <state width="1878" height="208" key="GridCell.Tab.0.bottom" timestamp="1601972112401">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="208" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
+    <state width="1878" height="410" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505658" />
     <state width="1042" height="266" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
-    <state width="1878" height="366" key="GridCell.Tab.0.center" timestamp="1601970032839">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1878" height="208" key="GridCell.Tab.0.center" timestamp="1601972112401">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="366" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724627" />
-    <state width="1878" height="366" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032839" />
+    <state width="1878" height="208" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
+    <state width="1878" height="410" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505657" />
     <state width="1042" height="266" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
-    <state width="1878" height="366" key="GridCell.Tab.0.left" timestamp="1601970032838">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1878" height="208" key="GridCell.Tab.0.left" timestamp="1601972112400">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="366" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724626" />
-    <state width="1878" height="366" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032838" />
+    <state width="1878" height="208" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112400" />
+    <state width="1878" height="410" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505657" />
     <state width="1042" height="266" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341286" />
-    <state width="1878" height="366" key="GridCell.Tab.0.right" timestamp="1601970032839">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1878" height="208" key="GridCell.Tab.0.right" timestamp="1601972112401">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="366" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724627" />
-    <state width="1878" height="366" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032839" />
+    <state width="1878" height="208" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
+    <state width="1878" height="410" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505658" />
     <state width="1042" height="266" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
       <screen x="0" y="23" width="1920" height="1177" />
@@ -391,6 +399,10 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="337" y="481" key="IDE.errors.dialog/0.23.3440.1417@0.23.3440.1417" timestamp="1601824172747" />
+    <state x="560" y="351" key="Vcs.Push.Dialog.v2" timestamp="1601971285684">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="560" y="351" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1601971285684" />
     <state x="827" y="436" key="jetbrains.mps.debugger.java.runtime.ui.evaluation.EvaluationDialog" timestamp="1601969723818">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
