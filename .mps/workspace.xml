@@ -19,7 +19,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="5f6edba2-e25a-450e-bea3-419d60a5c240/r:454c369e-2b1b-461b-830f-8699e1629ca7(TempModule5f6edba2-e25a-450e-bea3-419d60a5c240/ConsoleModel_131146190776415)">
+            <model ref="575fa61e-0296-473f-aeea-865fac48b51c/r:0eb0d53f-543b-4b31-946e-3cce91eacb94(TempModule575fa61e-0296-473f-aeea-865fac48b51c/ConsoleModel_193257025851590)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +39,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="5VfqKbM589l">
-                <node concept="3balQm" id="5VfqKbM589m" role="aymYE" />
-                <node concept="2Clz$F" id="5VfqKbM589n" role="aymYO" />
-                <node concept="2_V_lH" id="5VfqKbM589o" role="1PhJh3">
-                  <ref role="2_V_lI" node="5VfqKbM589n" resolve="CommandHolder" />
+              <node concept="aymSD" id="5VfqKbMZYsc">
+                <node concept="3balQm" id="5VfqKbMZYsd" role="aymYE" />
+                <node concept="2Clz$F" id="5VfqKbMZYse" role="aymYO" />
+                <node concept="2_V_lH" id="5VfqKbMZYsf" role="1PhJh3">
+                  <ref role="2_V_lI" node="5VfqKbMZYse" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -96,7 +96,36 @@
   <component name="NodeEditorSearchHistory">
     <option name="searches">
       <list>
-        <option value="_2" />
+        <option value="quad" />
+        <option value="rxx4" />
+        <option value="doubleBoth" />
+        <option value="rxx5" />
+        <option value="xx4" />
+        <option value="corrxxx10" />
+        <option value="corrxxx9(" />
+        <option value="corrxxx8(" />
+        <option value="corrxxx7(" />
+        <option value="corrxxx6(" />
+        <option value="corrxxx5(" />
+        <option value="corrxxx4(" />
+        <option value="corrxxx3(" />
+        <option value="corrxxx2(" />
+        <option value="corrxxx1(" />
+        <option value="corrxx10" />
+        <option value="corrxx9(" />
+        <option value="corrxx8(" />
+        <option value="corrxx7(" />
+        <option value="corrxx5(" />
+        <option value="corrxx4(" />
+        <option value="corrxx3(" />
+        <option value="corrxx1(" />
+        <option value="corrx22" />
+        <option value="corrx21" />
+        <option value="corrx19" />
+        <option value="corrx17" />
+        <option value="corrx16" />
+        <option value="corrx15" />
+        <option value="corrx14" />
       </list>
     </option>
   </component>
@@ -165,13 +194,8 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="FileSystem" />
-    </panes>
+    <navigator proportions="" version="1" />
+    <panes />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -181,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/leiv/DataProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Java Application.Node SLANT">
     <configuration name="All Tests in Project" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -315,6 +339,14 @@
       <option name="presentableId" value="Default" />
       <updated>1601623459891</updated>
     </task>
+    <task id="LOCAL-00001" summary="removed correctx18 and renamed the following">
+      <created>1601972232267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601972232267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -323,6 +355,10 @@
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed correctx18 and renamed the following" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed correctx18 and renamed the following" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="337" key="#MPSPropertiesConfigurable" timestamp="1601624643558">
@@ -337,9 +373,14 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="849" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601624686732" />
-    <state x="1138" y="346" key="FileChooserDialogImpl" timestamp="1601971412331">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="305" y="108" key="CommitChangelistDialog2" timestamp="1601972232084">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="305" y="108" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1601972232084" />
+    <state x="996" y="100" width="585" height="911" key="FileChooserDialogImpl" timestamp="1601975249493">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="996" y="100" width="585" height="911" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1601975249493" />
     <state x="1138" y="313" key="FileChooserDialogImpl/0.23.1920.1057@0.23.1920.1057" timestamp="1601970933862" />
     <state x="1138" y="346" key="FileChooserDialogImpl/0.23.1920.1177@0.23.1920.1177" timestamp="1601971412331" />
     <state x="1170" y="527" key="FileChooserDialogImpl/0.23.3440.1417@0.23.3440.1417" timestamp="1601754363757" />
@@ -351,29 +392,33 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
-    <state width="1878" height="208" key="GridCell.Tab.0.bottom" timestamp="1601972112401">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1638" height="129" key="GridCell.Tab.0.bottom" timestamp="1602073671030">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state width="1638" height="129" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1601983406929" />
     <state width="1878" height="208" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="410" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505658" />
+    <state width="1638" height="129" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1602073671030" />
     <state width="1042" height="266" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
-    <state width="1878" height="208" key="GridCell.Tab.0.center" timestamp="1601972112401">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1638" height="129" key="GridCell.Tab.0.center" timestamp="1602073671028">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state width="1638" height="129" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1601983406928" />
     <state width="1878" height="208" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="410" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505657" />
+    <state width="1638" height="129" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1602073671028" />
     <state width="1042" height="266" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
-    <state width="1878" height="208" key="GridCell.Tab.0.left" timestamp="1601972112400">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1638" height="129" key="GridCell.Tab.0.left" timestamp="1602073671028">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state width="1638" height="129" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1601983406928" />
     <state width="1878" height="208" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112400" />
-    <state width="1878" height="410" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505657" />
+    <state width="1638" height="129" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1602073671028" />
     <state width="1042" height="266" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341286" />
-    <state width="1878" height="208" key="GridCell.Tab.0.right" timestamp="1601972112401">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="1638" height="129" key="GridCell.Tab.0.right" timestamp="1602073671030">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state width="1638" height="129" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1601983406929" />
     <state width="1878" height="208" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="410" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601971505658" />
+    <state width="1638" height="129" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1602073671030" />
     <state width="1042" height="266" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1601846341287" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
       <screen x="0" y="23" width="1920" height="1177" />
@@ -395,13 +440,16 @@
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724628" />
     <state width="1878" height="366" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032841" />
-    <state x="337" y="481" key="IDE.errors.dialog" timestamp="1601824172747">
-      <screen x="0" y="23" width="3440" height="1417" />
-    </state>
-    <state x="337" y="481" key="IDE.errors.dialog/0.23.3440.1417@0.23.3440.1417" timestamp="1601824172747" />
-    <state x="560" y="351" key="Vcs.Push.Dialog.v2" timestamp="1601971285684">
+    <state x="189" y="403" key="IDE.errors.dialog" timestamp="1601994929686">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
+    <state x="165" y="355" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1601972242371" />
+    <state x="189" y="403" key="IDE.errors.dialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601994929686" />
+    <state x="337" y="481" key="IDE.errors.dialog/0.23.3440.1417@0.23.3440.1417" timestamp="1601824172747" />
+    <state x="490" y="309" key="Vcs.Push.Dialog.v2" timestamp="1601972234024">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="490" y="309" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1601972234024" />
     <state x="560" y="351" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1601971285684" />
     <state x="827" y="436" key="jetbrains.mps.debugger.java.runtime.ui.evaluation.EvaluationDialog" timestamp="1601969723818">
       <screen x="0" y="23" width="1920" height="1057" />
