@@ -83,11 +83,28 @@ public abstract class SLANT {
   public static final Block b3 = new Block(ITerm.Kind.VARIABLE, "b3");
   public static final Block b4 = new Block(ITerm.Kind.VARIABLE, "b4");
   public static final Block b5 = new Block(ITerm.Kind.VARIABLE, "b5");
+  public static final Block b6 = new Block(ITerm.Kind.VARIABLE, "b6");
+  public static final Block b7 = new Block(ITerm.Kind.VARIABLE, "b7");
+  public static final Block b8 = new Block(ITerm.Kind.VARIABLE, "b8");
+  public static final Block b9 = new Block(ITerm.Kind.VARIABLE, "b9");
+  public static final Block b10 = new Block(ITerm.Kind.VARIABLE, "b10");
   public static final Elm n = new Elm(ITerm.Kind.VARIABLE, "n");
   public static final Elm s1 = new Elm(ITerm.Kind.VARIABLE, "s1");
   public static final Elm s2 = new Elm(ITerm.Kind.VARIABLE, "s2");
   public static final Elm s3 = new Elm(ITerm.Kind.VARIABLE, "s3");
   public static final Elm s4 = new Elm(ITerm.Kind.VARIABLE, "s4");
+  public static final Elm s5 = new Elm(ITerm.Kind.VARIABLE, "s5");
+  public static final Elm s6 = new Elm(ITerm.Kind.VARIABLE, "s6");
+  public static final Elm s7 = new Elm(ITerm.Kind.VARIABLE, "s7");
+  public static final Elm s8 = new Elm(ITerm.Kind.VARIABLE, "s8");
+  public static final Elm s9 = new Elm(ITerm.Kind.VARIABLE, "s9");
+  public static final Elm s10 = new Elm(ITerm.Kind.VARIABLE, "s10");
+  public static final Elm s11 = new Elm(ITerm.Kind.VARIABLE, "s11");
+  public static final Elm s12 = new Elm(ITerm.Kind.VARIABLE, "s12");
+  public static final Elm s13 = new Elm(ITerm.Kind.VARIABLE, "s13");
+  public static final Elm s14 = new Elm(ITerm.Kind.VARIABLE, "s14");
+  public static final Elm s15 = new Elm(ITerm.Kind.VARIABLE, "s15");
+  public static final Elm s16 = new Elm(ITerm.Kind.VARIABLE, "s16");
   public static final Elm e1 = new Elm(ITerm.Kind.VARIABLE, "e1");
   public static final Elm e2 = new Elm(ITerm.Kind.VARIABLE, "e2");
   public static final Elm e3 = new Elm(ITerm.Kind.VARIABLE, "e3");
@@ -178,6 +195,9 @@ public abstract class SLANT {
   private static final Operator oper_MultCheck3 = new Operator(false, "MultCheck3");
   private static final Operator oper_MultiCheckTrip = new Operator(false, "MultiCheckTrip");
   private static final Operator oper_SmallLoops = new Operator(false, "SmallLoops");
+  private static final Operator oper_sameValuesBlock = new Operator(false, "sameValuesBlock");
+  private static final Operator oper_sameValuesLine = new Operator(false, "sameValuesLine");
+  private static final Operator oper_sameValuesBoard = new Operator(false, "sameValuesBoard");
 
   public static Board mkBoard(Line Line_0, Line Line_1, Line Line_2, Line Line_3, Line Line_4) {
     return new Board(oper_mkBoard, Line_0, Line_1, Line_2, Line_3, Line_4);
@@ -431,12 +451,23 @@ public abstract class SLANT {
   public static Bool SmallLoops(Elm Elm_315, Elm Elm_316, Elm Elm_317, Elm Elm_318, Elm Elm_319) {
     return new Bool(oper_SmallLoops, Elm_315, Elm_316, Elm_317, Elm_318, Elm_319);
   }
+  public static Bool sameValuesBlock(Block Block_31, Block Block_32, Block Block_33, Block Block_34) {
+    return new Bool(oper_sameValuesBlock, Block_31, Block_32, Block_33, Block_34);
+  }
+  public static Bool sameValuesLine(Line Line_6, Line Line_7) {
+    return new Bool(oper_sameValuesLine, Line_6, Line_7);
+  }
+  public static Bool sameValuesBoard(Board Board_1) {
+    return new Bool(oper_sameValuesBoard, Board_1);
+  }
 
   /*package*/ static void initAxioms() {
     System.out.println("Using axioms of " + "SLANT");
-    ITerm.axiom(SLANT.corrBoard(SLANT.mkBoard(SLANT.l1, SLANT.l2, SLANT.l3, SLANT.l4, SLANT.l5)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(SLANT.corrLine(SLANT.l1), SLANT.corrLine(SLANT.l2)), SLANT.corrLine(SLANT.l3)), SLANT.corrLine(SLANT.l4)), SLANT.corrLine(SLANT.l5)));
+    ITerm.axiom(SLANT.corrBoard(SLANT.mkBoard(SLANT.l1, SLANT.l2, SLANT.l3, SLANT.l4, SLANT.l5)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(SLANT.corrLine(SLANT.l1), SLANT.corrLine(SLANT.l2)), SLANT.corrLine(SLANT.l3)), SLANT.corrLine(SLANT.l4)), SLANT.corrLine(SLANT.l5)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(SLANT.sameValuesLine(SLANT.l1, SLANT.l2), SLANT.sameValuesLine(SLANT.l2, SLANT.l3)), SLANT.sameValuesLine(SLANT.l3, SLANT.l4)), SLANT.sameValuesLine(SLANT.l4, SLANT.l5))));
     ITerm.axiom(SLANT.corrLine(SLANT.mkLine(SLANT.b1, SLANT.b2, SLANT.b3, SLANT.b4, SLANT.b5)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(SLANT.corrBlocks(SLANT.b1), SLANT.corrBlocks(SLANT.b2)), SLANT.corrBlocks(SLANT.b3)), SLANT.corrBlocks(SLANT.b4)), SLANT.corrBlocks(SLANT.b5)));
     ITerm.axiom(SLANT.corrBlocks(SLANT.mkBlock(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), BOOLEAN.And(SLANT.corrElm(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(SLANT.SmallLoops(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.Single(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.MultCheck1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.MultCheck2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.MultCheck3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.MultiCheckTrip(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)))));
+    ITerm.axiom(SLANT.sameValuesLine(SLANT.mkLine(SLANT.b1, SLANT.b2, SLANT.b3, SLANT.b4, SLANT.b5), SLANT.mkLine(SLANT.b6, SLANT.b7, SLANT.b8, SLANT.b9, SLANT.b10)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(SLANT.sameValuesBlock(SLANT.b1, SLANT.b2, SLANT.b6, SLANT.b7), SLANT.sameValuesBlock(SLANT.b2, SLANT.b3, SLANT.b7, SLANT.b8)), SLANT.sameValuesBlock(SLANT.b3, SLANT.b4, SLANT.b8, SLANT.b9)), SLANT.sameValuesBlock(SLANT.b4, SLANT.b5, SLANT.b9, SLANT.b10)));
+    ITerm.axiom(SLANT.sameValuesBlock(SLANT.mkBlock(SLANT.s1, SLANT.s2, null, SLANT.s3, SLANT.s4), SLANT.mkBlock(SLANT.s5, SLANT.s6, null, SLANT.s7, SLANT.s8), SLANT.mkBlock(SLANT.s9, SLANT.s10, null, SLANT.s11, SLANT.s12), SLANT.mkBlock(SLANT.s13, SLANT.s14, null, SLANT.s15, SLANT.s16)), BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.Equal(SLANT.s4, SLANT.s7), BOOLEAN.Equal(SLANT.s10, SLANT.s13)), BOOLEAN.Equal(SLANT.s4, SLANT.s10)), BOOLEAN.Equal(SLANT.s2, SLANT.s5)), BOOLEAN.Equal(SLANT.s3, SLANT.s9)), BOOLEAN.Equal(SLANT.s8, SLANT.s14)), BOOLEAN.Equal(SLANT.s12, SLANT.s15)));
     ITerm.axiom(SLANT.corrElm(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._3()), BOOLEAN.Equal(SLANT.n, SLANT._4())))))), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.s1, SLANT.bs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s1, SLANT.fs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s1, SLANT.xs()), BOOLEAN.Equal(SLANT.s1, SLANT.em())))), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.s2, SLANT.bs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s2, SLANT.fs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s2, SLANT.xs()), BOOLEAN.Equal(SLANT.s2, SLANT.em())))), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.s3, SLANT.bs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s3, SLANT.fs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s3, SLANT.xs()), BOOLEAN.Equal(SLANT.s3, SLANT.em())))), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s4, SLANT.bs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s4, SLANT.fs()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.s4, SLANT.xs()), BOOLEAN.Equal(SLANT.s4, SLANT.em())))))))));
     ITerm.axiom(SLANT.SmallLoops(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Not(BOOLEAN.And(BOOLEAN.And(BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.fs()), BOOLEAN.Equal(SLANT.s2, SLANT.bs())), BOOLEAN.Equal(SLANT.s3, SLANT.bs())), BOOLEAN.Equal(SLANT.s4, SLANT.fs()))));
     ITerm.axiom(SLANT.MultCheck1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.DoubleRight(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.DoubleRight(SLANT.s1, SLANT.s3, SLANT.n, SLANT.s2, SLANT.s4)), SLANT.DoubleLeft(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleLeft(SLANT.s4, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s1)), SLANT.Single(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
@@ -509,7 +540,7 @@ public abstract class SLANT {
     // Execute actions 
     final ITerm test1 = ITerm.let("test1", SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()));
     final ITerm sa1 = ITerm.let("sa1", SLANT.mkBoard(SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.xs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.xs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.xs(), SLANT.__(), SLANT.em(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._2(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._1(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.em(), SLANT._1(), SLANT.xs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.xs(), SLANT._0(), SLANT.em(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._3(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._2(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.em(), SLANT.__(), SLANT.xs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.xs(), SLANT._1(), SLANT.em(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._1(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._3(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT.__(), SLANT.xs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.em(), SLANT._1(), SLANT.xs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.xs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT._1(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.xs(), SLANT.xs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.xs(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.em()))));
-    final ITerm sa2 = ITerm.let("sa2", SLANT.mkBoard(SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.bs(), SLANT.__(), SLANT.em(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._2(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._1(), SLANT.bs(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT.__(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.bs(), SLANT._0(), SLANT.em(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._4(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.fs(), SLANT.__(), SLANT.bs(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT._2(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.fs(), SLANT._1(), SLANT.em(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT._1(), SLANT.fs(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.fs(), SLANT._3(), SLANT.fs(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.fs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.fs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.fs(), SLANT._1(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.em()))));
+    final ITerm sa2 = ITerm.let("sa2", SLANT.mkBoard(SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.em(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.bs(), SLANT.__(), SLANT.em(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._2(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._1(), SLANT.bs(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT.__(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.bs(), SLANT._0(), SLANT.em(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.bs(), SLANT._3(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.fs(), SLANT.__(), SLANT.bs(), SLANT.bs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT._2(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT.__(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.fs(), SLANT._1(), SLANT.em(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT._1(), SLANT.fs(), SLANT.fs()), SLANT.mkBlock(SLANT.bs(), SLANT.fs(), SLANT._3(), SLANT.fs(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.fs(), SLANT.bs()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.bs(), SLANT.em())), SLANT.mkLine(SLANT.mkBlock(SLANT.em(), SLANT.fs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.fs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.fs(), SLANT._1(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.em(), SLANT.em()), SLANT.mkBlock(SLANT.bs(), SLANT.em(), SLANT._1(), SLANT.em(), SLANT.em()))));
     Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.corrBoard((Board) sa2));
   }
 
