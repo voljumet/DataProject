@@ -19,7 +19,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="c6e5fadf-182e-41bd-8459-96e6dd9545cb/r:b7843423-b3a1-4ee3-aefc-251aadaf5fec(TempModulec6e5fadf-182e-41bd-8459-96e6dd9545cb/ConsoleModel_23121696985051)">
+            <model ref="de806eed-4341-4bb6-9ac7-47c588a20794/r:6182c9e2-ff36-40ee-aafd-05aaf776b004(TempModulede806eed-4341-4bb6-9ac7-47c588a20794/ConsoleModel_77379136746628)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +39,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6PMo0l6WZFM">
-                <node concept="3balQm" id="6PMo0l6WZFN" role="aymYE" />
-                <node concept="2Clz$F" id="6PMo0l6WZFO" role="aymYO" />
-                <node concept="2_V_lH" id="6PMo0l6WZFP" role="1PhJh3">
-                  <ref role="2_V_lI" node="6PMo0l6WZFO" resolve="CommandHolder" />
+              <node concept="aymSD" id="JMADsy1Abu">
+                <node concept="3balQm" id="JMADsy1Abv" role="aymYE" />
+                <node concept="2Clz$F" id="JMADsy1Abw" role="aymYO" />
+                <node concept="2_V_lH" id="JMADsy1Abx" role="1PhJh3">
+                  <ref role="2_V_lI" node="JMADsy1Abw" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -194,62 +194,8 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" />
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8510667047123729214" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
-      <pane id="FileSystem" />
-    </panes>
+    <navigator proportions="" version="1" />
+    <panes />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -407,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602079713165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Most slants are filled in more than once in this setup, added a check to catch these if they get entered wrong.">
+      <created>1602187950379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602187950379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -420,7 +373,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed correctx18 and renamed the following" />
     <MESSAGE value="changed around on the function-axioms and removed some of the axioms that became redundant when we check (left or right) or (left and right)" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed around on the function-axioms and removed some of the axioms that became redundant when we check (left or right) or (left and right)" />
+    <MESSAGE value="Most slants are filled in more than once in this setup, added a check to catch these if they get entered wrong." />
+    <option name="LAST_COMMIT_MESSAGE" value="Most slants are filled in more than once in this setup, added a check to catch these if they get entered wrong." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="337" key="#MPSPropertiesConfigurable" timestamp="1601624643558">
@@ -435,11 +389,12 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="849" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1601624686732" />
-    <state x="349" y="120" key="CommitChangelistDialog2" timestamp="1602079712202">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="625" y="140" key="CommitChangelistDialog2" timestamp="1602187950175">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="305" y="108" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1601972232084" />
     <state x="349" y="120" key="CommitChangelistDialog2/0.23.1920.1177@0.23.1920.1177" timestamp="1602079712202" />
+    <state x="625" y="140" key="CommitChangelistDialog2/0.23.3440.1417@0.23.3440.1417" timestamp="1602187950175" />
     <state x="996" y="100" width="585" height="911" key="FileChooserDialogImpl" timestamp="1601975249493">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -455,34 +410,34 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
-    <state width="3398" height="347" key="GridCell.Tab.0.bottom" timestamp="1602187776416">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1602585086454">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602149919084" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086454" />
     <state width="1878" height="208" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="330" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1602142256918" />
-    <state width="3398" height="347" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602187776416" />
-    <state width="3398" height="347" key="GridCell.Tab.0.center" timestamp="1602187776416">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
+    <state width="3398" height="347" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1602585086453">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602149919084" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="208" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="330" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1602142256918" />
-    <state width="3398" height="347" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602187776416" />
-    <state width="3398" height="347" key="GridCell.Tab.0.left" timestamp="1602187776415">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
+    <state width="3398" height="347" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1602585086453">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602149919083" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="208" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112400" />
-    <state width="1878" height="330" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1602142256917" />
-    <state width="3398" height="347" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602187776415" />
-    <state width="3398" height="347" key="GridCell.Tab.0.right" timestamp="1602187776416">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360426" />
+    <state width="3398" height="347" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1602585086453">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602149919084" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="208" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601972112401" />
-    <state width="1878" height="330" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1602142256918" />
-    <state width="3398" height="347" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602187776416" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
+    <state width="3398" height="347" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -503,17 +458,18 @@
     </state>
     <state width="1878" height="366" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1601969724628" />
     <state width="1878" height="366" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601970032841" />
-    <state x="189" y="403" key="IDE.errors.dialog" timestamp="1602137958350">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="165" y="355" key="IDE.errors.dialog" timestamp="1602585167564">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="165" y="355" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1601972242371" />
-    <state x="189" y="403" key="IDE.errors.dialog/0.23.1920.1177@0.23.1920.1177" timestamp="1602137958350" />
+    <state x="165" y="355" key="IDE.errors.dialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602585167564" />
+    <state x="189" y="403" key="IDE.errors.dialog/0.23.1920.1177@0.23.1920.1177" timestamp="1602508820719" />
     <state x="337" y="481" key="IDE.errors.dialog/0.23.3440.1417@0.23.3440.1417" timestamp="1601824172747" />
-    <state x="560" y="351" key="Vcs.Push.Dialog.v2" timestamp="1602079717467">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="1003" y="418" key="Vcs.Push.Dialog.v2" timestamp="1602187954463">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="490" y="309" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1601972234024" />
     <state x="560" y="351" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1602079717467" />
+    <state x="1003" y="418" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1602187954463" />
     <state x="827" y="436" key="jetbrains.mps.debugger.java.runtime.ui.evaluation.EvaluationDialog" timestamp="1601969723818">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
