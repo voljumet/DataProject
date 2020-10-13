@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
@@ -19,7 +37,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="2fa82c49-3bd8-499e-8fa6-684c88c9dc5a/r:b89746ff-d63b-4cdd-bb72-95f359f905b2(TempModule2fa82c49-3bd8-499e-8fa6-684c88c9dc5a/ConsoleModel_112788142792622)">
+            <model ref="1bed4f13-c7bf-46c5-a6d7-91f1e9920159/r:efdb02c5-85d2-4824-a0fe-aea64ffb5e90(TempModule1bed4f13-c7bf-46c5-a6d7-91f1e9920159/ConsoleModel_15019575380949)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -39,11 +57,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="7N4yT8EYzrv">
-                <node concept="3balQm" id="7N4yT8EYzrw" role="aymYE" />
-                <node concept="2Clz$F" id="7N4yT8EYzrx" role="aymYO" />
-                <node concept="2_V_lH" id="7N4yT8EYzry" role="1PhJh3">
-                  <ref role="2_V_lI" node="7N4yT8EYzrx" resolve="CommandHolder" />
+              <node concept="aymSD" id="35y9$IwDK$z">
+                <node concept="3balQm" id="35y9$IwDK$$" role="aymYE" />
+                <node concept="2Clz$F" id="35y9$IwDK$_" role="aymYO" />
+                <node concept="2_V_lH" id="35y9$IwDK$A" role="1PhJh3">
+                  <ref role="2_V_lI" node="35y9$IwDK$_" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -194,8 +212,13 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
-    <panes />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="FileSystem" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -376,6 +399,9 @@
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed correctx18 and renamed the following" />
