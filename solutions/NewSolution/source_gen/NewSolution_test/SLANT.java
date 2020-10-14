@@ -234,7 +234,8 @@ public abstract class SLANT {
   private static final Operator oper_sameValuesLine = new Operator(false, "sameValuesLine");
   private static final Operator oper_SmallRectLoops = new Operator(false, "SmallRectLoops");
   private static final Operator oper_TwoLines = new Operator(false, "TwoLines");
-  private static final Operator oper_TwoBlocks = new Operator(false, "TwoBlocks");
+  private static final Operator oper_TwoBlocksRight = new Operator(false, "TwoBlocksRight");
+  private static final Operator oper_TwoBlocksLeft = new Operator(false, "TwoBlocksLeft");
   private static final Operator oper_CheckTwoRight = new Operator(false, "CheckTwoRight");
   private static final Operator oper_CheckTwoLeft = new Operator(false, "CheckTwoLeft");
 
@@ -520,8 +521,11 @@ public abstract class SLANT {
   public static Bool TwoLines(Line Line_17, Line Line_18) {
     return new Bool(oper_TwoLines, Line_17, Line_18);
   }
-  public static Bool TwoBlocks(Block Block_35, Block Block_36) {
-    return new Bool(oper_TwoBlocks, Block_35, Block_36);
+  public static Bool TwoBlocksRight(Block Block_35, Block Block_36) {
+    return new Bool(oper_TwoBlocksRight, Block_35, Block_36);
+  }
+  public static Bool TwoBlocksLeft(Block Block_37, Block Block_38) {
+    return new Bool(oper_TwoBlocksLeft, Block_37, Block_38);
   }
   public static Bool CheckTwoRight(Elm Elm_339, Elm Elm_340, Elm Elm_341, Elm Elm_342, Elm Elm_343, Elm Elm_344, Elm Elm_345, Elm Elm_346, Elm Elm_347, Elm Elm_348) {
     return new Bool(oper_CheckTwoRight, Elm_339, Elm_340, Elm_341, Elm_342, Elm_343, Elm_344, Elm_345, Elm_346, Elm_347, Elm_348);
@@ -600,10 +604,11 @@ public abstract class SLANT {
     ITerm.axiom(SLANT.corner5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._1())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.em()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.em()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.fs()), BOOLEAN.Equal(SLANT.s4, SLANT.em()))))));
     ITerm.axiom(SLANT.corner6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._0())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.em()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.em()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.bs()), BOOLEAN.Equal(SLANT.s4, SLANT.em()))))));
     ITerm.axiom(SLANT.SmallRectLoops(SLANT.mkBoard(SLANT.l1, SLANT.l2, SLANT.l3, SLANT.l4, SLANT.l5)), BOOLEAN.Not(BOOLEAN.Or(SLANT.TwoLines(SLANT.l2, SLANT.l3), SLANT.TwoLines(SLANT.l3, SLANT.l4))));
-    ITerm.axiom(SLANT.TwoLines(SLANT.mkLine(null, SLANT.b2, SLANT.b3, SLANT.b4, null), SLANT.mkLine(null, SLANT.b7, SLANT.b8, SLANT.b9, null)), BOOLEAN.Or(SLANT.TwoBlocks(SLANT.b2, SLANT.b8), SLANT.TwoBlocks(SLANT.b3, SLANT.b9)));
-    ITerm.axiom(SLANT.TwoBlocks(SLANT.mkBlock(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4), SLANT.mkBlock(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)), BOOLEAN.Or(SLANT.CheckTwoRight(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8), SLANT.CheckTwoLeft(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)));
-    ITerm.axiom(SLANT.CheckTwoRight(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8), BOOLEAN.And(SLANT.doubleRight4(SLANT.s4, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s1), SLANT.doubleRight2(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)));
-    ITerm.axiom(SLANT.CheckTwoLeft(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8), BOOLEAN.And(SLANT.doubleLeft2(SLANT.s4, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s1), SLANT.doubleLeft2(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)));
+    ITerm.axiom(SLANT.TwoLines(SLANT.mkLine(null, SLANT.b2, SLANT.b3, SLANT.b4, null), SLANT.mkLine(null, SLANT.b7, SLANT.b8, SLANT.b9, null)), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.TwoBlocksRight(SLANT.b2, SLANT.b8), SLANT.TwoBlocksRight(SLANT.b3, SLANT.b9)), SLANT.TwoBlocksLeft(SLANT.b4, SLANT.b8)), SLANT.TwoBlocksLeft(SLANT.b3, SLANT.b7)));
+    ITerm.axiom(SLANT.TwoBlocksRight(SLANT.mkBlock(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4), SLANT.mkBlock(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)), SLANT.CheckTwoRight(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8));
+    ITerm.axiom(SLANT.TwoBlocksLeft(SLANT.mkBlock(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4), SLANT.mkBlock(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)), SLANT.CheckTwoLeft(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8));
+    ITerm.axiom(SLANT.CheckTwoRight(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8), BOOLEAN.Or(BOOLEAN.And(SLANT.doubleRight4(SLANT.s1, SLANT.s3, SLANT.n1, SLANT.s2, SLANT.s4), SLANT.doubleRight4(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)), BOOLEAN.And(SLANT.doubleRight1(SLANT.s1, SLANT.s3, SLANT.n1, SLANT.s2, SLANT.s4), SLANT.doubleRight1(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8))));
+    ITerm.axiom(SLANT.CheckTwoLeft(SLANT.s1, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s4, SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8), BOOLEAN.Or(BOOLEAN.And(SLANT.doubleLeft2(SLANT.s4, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s1), SLANT.doubleLeft2(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8)), BOOLEAN.And(SLANT.doubleLeft4(SLANT.s4, SLANT.s2, SLANT.n1, SLANT.s3, SLANT.s1), SLANT.doubleLeft4(SLANT.s5, SLANT.s6, SLANT.n2, SLANT.s7, SLANT.s8))));
   }
 
   public static void main(String[] args) {
@@ -616,8 +621,10 @@ public abstract class SLANT {
 
     // Execute actions 
 
+    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.TwoBlocksLeft(SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.bs(), SLANT.xs()), SLANT.mkBlock(SLANT.xs(), SLANT.bs(), SLANT.__(), SLANT.bs(), SLANT.fs())));
+    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.TwoBlocksRight(SLANT.mkBlock(SLANT.fs(), SLANT.bs(), SLANT.__(), SLANT.xs(), SLANT.fs()), SLANT.mkBlock(SLANT.fs(), SLANT.xs(), SLANT.__(), SLANT.bs(), SLANT.fs())));
     Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.inputBoard(SLANT.inputLineN(SLANT._1(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.bs(), SLANT.bs(), SLANT.bs(), SLANT.bs()), SLANT.inputLineN(SLANT.__(), SLANT._2(), SLANT._1(), SLANT.__(), SLANT._1()), SLANT.inputLineX(SLANT.bs(), SLANT.bs(), SLANT.fs(), SLANT.bs()), SLANT.inputLineN(SLANT._0(), SLANT._3(), SLANT.__(), SLANT._2(), SLANT.__()), SLANT.inputLineX(SLANT.fs(), SLANT.bs(), SLANT.fs(), SLANT.bs()), SLANT.inputLineN(SLANT._1(), SLANT._1(), SLANT._3(), SLANT.__(), SLANT._1()), SLANT.inputLineX(SLANT.xs(), SLANT.fs(), SLANT.fs(), SLANT.bs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT._1(), SLANT.__(), SLANT._1())));
-    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.inputBoard(SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.fs(), SLANT.bs(), SLANT.xs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.bs(), SLANT.xs(), SLANT.bs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.xs(), SLANT.bs(), SLANT.fs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.xs(), SLANT.xs(), SLANT.xs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT._1(), SLANT.__(), SLANT._1())));
+    Reductions.initReduction(Reductions.Traversal.DFS, false, 460, SLANT.inputBoard(SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.fs(), SLANT.bs(), SLANT.xs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.bs(), SLANT.xs(), SLANT.bs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.xs(), SLANT.bs(), SLANT.fs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineX(SLANT.xs(), SLANT.xs(), SLANT.xs(), SLANT.xs()), SLANT.inputLineN(SLANT.__(), SLANT.__(), SLANT._1(), SLANT.__(), SLANT._1())));
   }
 
 }

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="">
+    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="Added SmallRectLoops, CheckTwoRight,, CheckTwoLeft, TwoBlocks, TwoLies">
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" afterDir="false" />
@@ -85,10 +85,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Rupsa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="voljumet" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="DataProject" />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -225,12 +230,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
@@ -247,6 +246,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602586907013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added SmallRectLoops, CheckTwoRight,, CheckTwoLeft, TwoBlocks, TwoLies">
+      <created>1602604010775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602604010775</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -461,7 +473,8 @@
     <MESSAGE value="changed around on the function-axioms and removed some of the axioms that became redundant when we check (left or right) or (left and right)" />
     <MESSAGE value="Most slants are filled in more than once in this setup, added a check to catch these if they get entered wrong." />
     <MESSAGE value="added a few lines of code to be sure that there are no duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a few lines of code to be sure that there are no duplicates" />
+    <MESSAGE value="Added SmallRectLoops, CheckTwoRight,, CheckTwoLeft, TwoBlocks, TwoLies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SmallRectLoops, CheckTwoRight,, CheckTwoLeft, TwoBlocks, TwoLies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="337" key="#MPSPropertiesConfigurable" timestamp="1601624643558">
@@ -489,6 +502,10 @@
     <state x="1138" y="313" key="FileChooserDialogImpl/0.23.1920.1057@0.23.1920.1057" timestamp="1601970933862" />
     <state x="1138" y="346" key="FileChooserDialogImpl/0.23.1920.1177@0.23.1920.1177" timestamp="1601971412331" />
     <state x="1170" y="527" key="FileChooserDialogImpl/0.23.3440.1417@0.23.3440.1417" timestamp="1601754363757" />
+    <state x="4139" y="567" key="Github.CreatePullRequestDialog" timestamp="1602604072948">
+      <screen x="1440" y="-15" width="3440" height="1417" />
+    </state>
+    <state x="4139" y="567" key="Github.CreatePullRequestDialog/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602604072948" />
     <state x="726" y="548" width="656" height="204" key="Github.ShareDialog" timestamp="1601971174213">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -497,40 +514,40 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
-    <state width="3398" height="200" key="GridCell.Tab.0.bottom" timestamp="1602603880349">
-      <screen x="1440" y="-15" width="3440" height="1417" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom" timestamp="1602661930273">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880349" />
     <state width="678" height="207" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086454" />
-    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1602592413862" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930273" />
     <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
     <state width="3398" height="347" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
-    <state width="3398" height="200" key="GridCell.Tab.0.center" timestamp="1602603880340">
-      <screen x="1440" y="-15" width="3440" height="1417" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center" timestamp="1602661930272">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.center/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880340" />
     <state width="678" height="207" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
-    <state width="1877" height="255" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1602592413862" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="280" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
     <state width="3398" height="347" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
-    <state width="3398" height="200" key="GridCell.Tab.0.left" timestamp="1602603880339">
-      <screen x="1440" y="-15" width="3440" height="1417" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left" timestamp="1602661930272">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.left/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880339" />
     <state width="678" height="207" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
-    <state width="1877" height="255" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1602592413861" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="280" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360426" />
     <state width="3398" height="347" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
-    <state width="3398" height="200" key="GridCell.Tab.0.right" timestamp="1602603880341">
-      <screen x="1440" y="-15" width="3440" height="1417" />
+    <state width="1878" height="251" key="GridCell.Tab.0.right" timestamp="1602661930272">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.right/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880341" />
     <state width="678" height="207" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
-    <state width="1877" height="255" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602592413862" />
+    <state width="1878" height="251" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="280" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1602511360427" />
     <state width="3398" height="347" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
