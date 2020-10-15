@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="Added SmallRectLoops, CheckTwoRight,, CheckTwoLeft, TwoBlocks, TwoLies">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" afterDir="false" />
@@ -37,7 +36,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="7cc238ae-1770-40f7-bd19-7e12782bbcbb/r:54fbab9b-9c73-46a9-8362-c2cb8bc3995c(TempModule7cc238ae-1770-40f7-bd19-7e12782bbcbb/ConsoleModel_167399278766571)">
+            <model ref="3cdd19bd-b021-4dc5-9534-dbbc24651fe8/r:3dc172df-b401-4f10-b128-97fea27438a6(TempModule3cdd19bd-b021-4dc5-9534-dbbc24651fe8/ConsoleModel_53755270362255)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -57,11 +56,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3mwX4NBqt6P">
-                <node concept="3balQm" id="3mwX4NBqt6Q" role="aymYE" />
-                <node concept="2Clz$F" id="3mwX4NBqt6R" role="aymYO" />
-                <node concept="2_V_lH" id="3mwX4NBqt6S" role="1PhJh3">
-                  <ref role="2_V_lI" node="3mwX4NBqt6R" resolve="CommandHolder" />
+              <node concept="aymSD" id="3RWWZZYuReM">
+                <node concept="3balQm" id="3RWWZZYuReN" role="aymYE" />
+                <node concept="2Clz$F" id="3RWWZZYuReO" role="aymYO" />
+                <node concept="2_V_lH" id="3RWWZZYuReP" role="1PhJh3">
+                  <ref role="2_V_lI" node="3RWWZZYuReO" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -86,7 +85,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Rupsa" />
+        <entry key="$PROJECT_DIR$" value="FixBug" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -224,7 +223,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,20 +230,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,9 +240,42 @@
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8510667047123729214" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
         </subPane>
       </pane>
+      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -501,42 +518,42 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
-    <state width="1878" height="343" key="GridCell.Tab.0.bottom" timestamp="1602685384641">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="3398" height="288" key="GridCell.Tab.0.bottom" timestamp="1602692241249">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880349" />
     <state width="678" height="207" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086454" />
     <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930273" />
     <state width="1878" height="343" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1602685384641" />
-    <state width="3398" height="347" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
-    <state width="1878" height="343" key="GridCell.Tab.0.center" timestamp="1602685384641">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="3398" height="288" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602692241249" />
+    <state width="3398" height="288" key="GridCell.Tab.0.center" timestamp="1602692241248">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.center/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880340" />
     <state width="678" height="207" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="343" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1602685384641" />
-    <state width="3398" height="347" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
-    <state width="1878" height="343" key="GridCell.Tab.0.left" timestamp="1602685384640">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="3398" height="288" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602692241248" />
+    <state width="3398" height="288" key="GridCell.Tab.0.left" timestamp="1602692241247">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.left/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880339" />
     <state width="678" height="207" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="343" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1602685384640" />
-    <state width="3398" height="347" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111751" />
-    <state width="1878" height="343" key="GridCell.Tab.0.right" timestamp="1602685384641">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="3398" height="288" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602692241247" />
+    <state width="3398" height="288" key="GridCell.Tab.0.right" timestamp="1602692241248">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.right/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880341" />
     <state width="678" height="207" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602602580574" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="343" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1602685384641" />
-    <state width="3398" height="347" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602188111752" />
+    <state width="3398" height="288" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602692241248" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
