@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="" />
+    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,12 +230,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
@@ -250,6 +246,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,6 +637,10 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="598" y="494" key="git4idea.rebase.GitUnstructuredEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1602861762351" />
+    <state x="743" y="772" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602862906292">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="743" y="772" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.3440.1417@0.23.3440.1417" timestamp="1602862906292" />
     <state x="827" y="436" key="jetbrains.mps.debugger.java.runtime.ui.evaluation.EvaluationDialog" timestamp="1601969723818">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
