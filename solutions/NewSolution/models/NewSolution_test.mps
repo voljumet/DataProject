@@ -13373,6 +13373,24 @@
         <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
       </node>
     </node>
+    <node concept="pRJ9f" id="3RWWZZZQPL9" role="pRMtA">
+      <property role="TrG5h" value="Ten_Sides_Lopp" />
+      <node concept="bl5qV" id="3RWWZZZQPVe" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="3RWWZZZQPWH" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="3RWWZZZQPWS" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="3RWWZZZQPXe" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="3RWWZZZQPLa" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
     <node concept="pRJ9f" id="1WtfdTOTiQ3" role="pRMtA">
       <property role="TrG5h" value="ArrowsBlockLeft" />
       <node concept="bl5qV" id="1WtfdTOTiZT" role="pRJ9k">

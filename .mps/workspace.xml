@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +31,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="4c083eb0-23f3-4e08-b53a-ee60f5089884/r:ec63c7c7-48d5-40ca-9731-345bb7043872(TempModule4c083eb0-23f3-4e08-b53a-ee60f5089884/ConsoleModel_253982715486377)">
+            <model ref="c16afc60-e1e7-407e-9912-d24e7d3efe9f/r:ce15e9b3-047c-4656-b198-0c9a79216211(TempModulec16afc60-e1e7-407e-9912-d24e7d3efe9f/ConsoleModel_272126165796217)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -53,11 +51,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1WtfdTOTcgo">
-                <node concept="3balQm" id="1WtfdTOTcgp" role="aymYE" />
-                <node concept="2Clz$F" id="1WtfdTOTcgq" role="aymYO" />
-                <node concept="2_V_lH" id="1WtfdTOTcgr" role="1PhJh3">
-                  <ref role="2_V_lI" node="1WtfdTOTcgq" resolve="CommandHolder" />
+              <node concept="aymSD" id="1WtfdTPjxW2">
+                <node concept="3balQm" id="1WtfdTPjxW3" role="aymYE" />
+                <node concept="2Clz$F" id="1WtfdTPjxW4" role="aymYO" />
+                <node concept="2_V_lH" id="1WtfdTPjxW5" role="1PhJh3">
+                  <ref role="2_V_lI" node="1WtfdTPjxW4" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -234,8 +232,10 @@
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,10 +248,8 @@
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,10 +264,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8510667047123729214" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
