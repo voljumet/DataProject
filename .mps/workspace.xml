@@ -232,10 +232,8 @@
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,8 +246,10 @@
               <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/alex/Library/Mobile Documents/com~apple~CloudDocs/UiA/DAT233 P.Konsepter/Project2/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
