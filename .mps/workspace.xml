@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="Solved for big loop with 12 sides/Slants">
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="3cdd19bd-b021-4dc5-9534-dbbc24651fe8/r:3dc172df-b401-4f10-b128-97fea27438a6(TempModule3cdd19bd-b021-4dc5-9534-dbbc24651fe8/ConsoleModel_53755270362255)">
+            <model ref="20312a79-660a-499b-bd55-aa2095e2b8ce/r:382ed5b4-13fb-46f5-a3a6-0c1cd3856f83(TempModule20312a79-660a-499b-bd55-aa2095e2b8ce/ConsoleModel_295296436148734)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -56,11 +53,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3RWWZZYuReM">
-                <node concept="3balQm" id="3RWWZZYuReN" role="aymYE" />
-                <node concept="2Clz$F" id="3RWWZZYuReO" role="aymYO" />
-                <node concept="2_V_lH" id="3RWWZZYuReP" role="1PhJh3">
-                  <ref role="2_V_lI" node="3RWWZZYuReO" resolve="CommandHolder" />
+              <node concept="aymSD" id="62hvBIry7wD">
+                <node concept="3balQm" id="62hvBIry7wE" role="aymYE" />
+                <node concept="2Clz$F" id="62hvBIry7wF" role="aymYO" />
+                <node concept="2_V_lH" id="62hvBIry7wG" role="1PhJh3">
+                  <ref role="2_V_lI" node="62hvBIry7wF" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -223,59 +220,10 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject/solutions/NewSolution/models/NewSolution_test.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8510667047123729214" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
       <pane id="FileSystem" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="ProjectViewState">

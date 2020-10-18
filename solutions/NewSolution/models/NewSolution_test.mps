@@ -14071,6 +14071,81 @@
         <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
       </node>
     </node>
+    <node concept="pRJ9f" id="1WtfdTOTiQ3" role="pRMtA">
+      <property role="TrG5h" value="ArrowsBlockLeft" />
+      <node concept="bl5qV" id="1WtfdTOTiZT" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTOTj08" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTOTj0j" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTOTiQ4" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="1WtfdTP7x$K" role="pRMtA">
+      <property role="TrG5h" value="ArrowsBlockRight" />
+      <node concept="bl5qV" id="1WtfdTP7x$L" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7x$M" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7x$N" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7x$O" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="1WtfdTP7xID" role="pRMtA">
+      <property role="TrG5h" value="ArrowsBlockUp" />
+      <node concept="bl5qV" id="1WtfdTP7xIE" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xIF" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xIG" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xIH" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="1WtfdTP7xSL" role="pRMtA">
+      <property role="TrG5h" value="ArrowsBlockDown" />
+      <node concept="bl5qV" id="1WtfdTP7xSM" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xSN" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xSO" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP7xSP" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="1WtfdTOTj0Z" role="pRMtA">
+      <property role="TrG5h" value="ArrowsLine" />
+      <node concept="bl5qV" id="1WtfdTOTj10" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTOTj11" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTP76bQ" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="1WtfdTOTj13" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
     <node concept="bklvD" id="5R36shkG651" role="blzGn">
       <property role="TrG5h" value="Board" />
     </node>
