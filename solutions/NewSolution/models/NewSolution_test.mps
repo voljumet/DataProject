@@ -12853,6 +12853,60 @@
         <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
       </node>
     </node>
+    <node concept="pRJ9f" id="5FB5PKHKWVx" role="pRMtA">
+      <property role="TrG5h" value="BigRect" />
+      <node concept="bl5qV" id="5FB5PKHKX53" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG651" resolve="Board" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKWVy" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="5FB5PKHKX5a" role="pRMtA">
+      <property role="TrG5h" value="BigRectLines" />
+      <node concept="bl5qV" id="5FB5PKHKXeJ" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKXeO" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKXeU" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG656" resolve="Line" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKX5b" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="5FB5PKHKXf3" role="pRMtA">
+      <property role="TrG5h" value="CheckBigRectLeft" />
+      <node concept="bl5qV" id="5FB5PKHKXoH" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKXoO" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKXoU" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHKXf4" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="5FB5PKHU8_u" role="pRMtA">
+      <property role="TrG5h" value="CheckBigRectRight" />
+      <node concept="bl5qV" id="5FB5PKHU8_v" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHU8_w" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHU8_x" role="pRJ9k">
+        <ref role="bl5qO" node="5R36shkG65a" resolve="Block" />
+      </node>
+      <node concept="bl5qV" id="5FB5PKHU8_y" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
     <node concept="bklvD" id="5R36shkG651" role="blzGn">
       <property role="TrG5h" value="Board" />
     </node>
