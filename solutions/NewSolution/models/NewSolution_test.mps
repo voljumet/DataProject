@@ -48,7 +48,6 @@
       </concept>
       <concept id="4779260070265770977" name="ActOne.structure.EmptyLine" flags="ng" index="rdghn" />
       <concept id="6849908093511409885" name="ActOne.structure.Reduce" flags="ng" index="YRuf3">
-        <property id="1955001717827324002" name="exhaustive" index="1lgsvm" />
         <property id="1955001717825840243" name="steps" index="1lq2J7" />
         <child id="6849908093511409912" name="termToReduce" index="YRufA" />
       </concept>
@@ -1164,7 +1163,6 @@
     </node>
     <node concept="YRuf3" id="3RWX000aEiA" role="YRu88">
       <property role="1lq2J7" value="0" />
-      <property role="1lgsvm" value="true" />
       <node concept="pQlao" id="3RWX000aEmW" role="YRufA">
         <property role="3IYp45" value="true" />
         <ref role="pQlar" node="3RWWZZZQPL9" resolve="Ten_Sides_Lopp" />
@@ -1244,7 +1242,6 @@
     </node>
     <node concept="YRuf3" id="3mwX4NBoR3O" role="YRu88">
       <property role="1lq2J7" value="0" />
-      <property role="1lgsvm" value="true" />
       <node concept="pQlao" id="3mwX4NBoR7j" role="YRufA">
         <property role="3IYp45" value="true" />
         <ref role="pQlar" node="3RWWZZZrZQU" resolve="BigLoop" />
@@ -12766,8 +12763,7 @@
     </node>
     <node concept="rdghn" id="3mwX4NBwfdR" role="YRu88" />
     <node concept="YRuf3" id="JMADsytzpr" role="YRu88">
-      <property role="1lq2J7" value="5" />
-      <property role="1lgsvm" value="true" />
+      <property role="1lq2J7" value="0" />
       <node concept="pQlao" id="JMADsyuTTv" role="YRufA">
         <property role="3IYp45" value="true" />
         <ref role="pQlar" node="JMADsy1D2y" resolve="inputBoard" />
@@ -12924,8 +12920,7 @@
       </node>
     </node>
     <node concept="YRuf3" id="3RWWZZYY4uF" role="YRu88">
-      <property role="1lq2J7" value="460" />
-      <property role="1lgsvm" value="true" />
+      <property role="1lq2J7" value="0" />
       <node concept="pQlao" id="3RWWZZYY4uG" role="YRufA">
         <property role="3IYp45" value="true" />
         <ref role="pQlar" node="JMADsy1D2y" resolve="inputBoard" />
