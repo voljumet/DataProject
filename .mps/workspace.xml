@@ -37,7 +37,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="aebfef60-0edc-4680-904f-92d73932c942/r:43c78466-1a56-4fbf-b8a9-d9ef706cc487(TempModuleaebfef60-0edc-4680-904f-92d73932c942/ConsoleModel_453620313571979)">
+            <model ref="a03d6c10-b8d8-4cbf-a2e0-330ad5ddf783/r:aab252c0-ff2d-44cc-83bf-8120a4e5b689(TempModulea03d6c10-b8d8-4cbf-a2e0-330ad5ddf783/ConsoleModel_226316577382852)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -57,11 +57,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="33Xs4_x85S5">
-                <node concept="3balQm" id="33Xs4_x85S6" role="aymYE" />
-                <node concept="2Clz$F" id="33Xs4_x85S7" role="aymYO" />
-                <node concept="2_V_lH" id="33Xs4_x85S8" role="1PhJh3">
-                  <ref role="2_V_lI" node="33Xs4_x85S7" resolve="CommandHolder" />
+              <node concept="aymSD" id="6s5Qg1ztqK_">
+                <node concept="3balQm" id="6s5Qg1ztqKA" role="aymYE" />
+                <node concept="2Clz$F" id="6s5Qg1ztqKB" role="aymYO" />
+                <node concept="2_V_lH" id="6s5Qg1ztqKC" role="1PhJh3">
+                  <ref role="2_V_lI" node="6s5Qg1ztqKB" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -86,7 +86,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="loopSolver" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -222,8 +222,62 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" />
-    <panes />
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject-1/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9a4611d6-055f-41f7-85b1-9363d2e3ca40" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:8de17955-d0e2-48c2-851b-cd8698e99eb5(NewSolution_test) in IdeaFile[path: /Users/peshangalo/ActoneidePro/DataProject-1/solutions/NewSolution/models/NewSolution_test.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8510667047123729214" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -513,42 +567,42 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="563" y="313" width="830" height="727" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601971194879" />
-    <state width="1878" height="295" key="GridCell.Tab.0.bottom" timestamp="1603358896306">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1339" height="215" key="GridCell.Tab.0.bottom" timestamp="1603649251128">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880349" />
     <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602854888538" />
     <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086454" />
     <state width="1878" height="251" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930273" />
     <state width="1878" height="295" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1603358896306" />
-    <state width="3398" height="2" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1602703019192" />
-    <state width="1878" height="295" key="GridCell.Tab.0.center" timestamp="1603358896305">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1339" height="215" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1603649251128" />
+    <state width="1339" height="215" key="GridCell.Tab.0.center" timestamp="1603649251128">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.center/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880340" />
     <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602854888537" />
     <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="295" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1603358896305" />
-    <state width="3398" height="2" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1602703019192" />
-    <state width="1878" height="295" key="GridCell.Tab.0.left" timestamp="1603358896305">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1339" height="215" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1603649251128" />
+    <state width="1339" height="215" key="GridCell.Tab.0.left" timestamp="1603649251128">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.left/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880339" />
     <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602854888537" />
     <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="295" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1603358896305" />
-    <state width="3398" height="2" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1602703019192" />
-    <state width="1878" height="295" key="GridCell.Tab.0.right" timestamp="1603358896305">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state width="1339" height="215" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1603649251128" />
+    <state width="1339" height="215" key="GridCell.Tab.0.right" timestamp="1603649251128">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="3398" height="200" key="GridCell.Tab.0.right/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602603880341" />
     <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602854888537" />
     <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602585086453" />
     <state width="1878" height="251" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602661930272" />
     <state width="1878" height="295" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1603358896305" />
-    <state width="3398" height="2" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1602703019192" />
+    <state width="1339" height="215" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1603649251128" />
     <state width="1878" height="366" key="GridCell.Tab.1.bottom" timestamp="1601970032842">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>

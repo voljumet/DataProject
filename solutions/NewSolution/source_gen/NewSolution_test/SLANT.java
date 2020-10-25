@@ -162,6 +162,7 @@ public abstract class SLANT {
   private static final Operator oper_single_6 = new Operator(false, "single_6");
   private static final Operator oper_single_7 = new Operator(false, "single_7");
   private static final Operator oper_single_8 = new Operator(false, "single_8");
+  private static final Operator oper_doubleRight_9 = new Operator(false, "doubleRight_9");
   private static final Operator oper_doubleRight_8 = new Operator(false, "doubleRight_8");
   private static final Operator oper_doubleRight_7 = new Operator(false, "doubleRight_7");
   private static final Operator oper_doubleRight_6 = new Operator(false, "doubleRight_6");
@@ -178,6 +179,7 @@ public abstract class SLANT {
   private static final Operator oper_doubleLeft_6 = new Operator(false, "doubleLeft_6");
   private static final Operator oper_doubleLeft_7 = new Operator(false, "doubleLeft_7");
   private static final Operator oper_doubleLeft_8 = new Operator(false, "doubleLeft_8");
+  private static final Operator oper_doubleLeft_9 = new Operator(false, "doubleLeft_9");
   private static final Operator oper_DoubleL_R_1 = new Operator(false, "DoubleL_R_1");
   private static final Operator oper_DoubleL_R_2 = new Operator(false, "DoubleL_R_2");
   private static final Operator oper_DoubleL_R_3 = new Operator(false, "DoubleL_R_3");
@@ -315,161 +317,167 @@ public abstract class SLANT {
   public static Bool single_8(Elm Elm_54, Elm Elm_55, Elm Elm_56, Elm Elm_57, Elm Elm_58) {
     return new Bool(oper_single_8, Elm_54, Elm_55, Elm_56, Elm_57, Elm_58);
   }
-  public static Bool doubleRight_8(Elm Elm_59, Elm Elm_60, Elm Elm_61, Elm Elm_62, Elm Elm_63) {
-    return new Bool(oper_doubleRight_8, Elm_59, Elm_60, Elm_61, Elm_62, Elm_63);
+  public static Bool doubleRight_9(Elm Elm_59, Elm Elm_60, Elm Elm_61, Elm Elm_62, Elm Elm_63) {
+    return new Bool(oper_doubleRight_9, Elm_59, Elm_60, Elm_61, Elm_62, Elm_63);
   }
-  public static Bool doubleRight_7(Elm Elm_64, Elm Elm_65, Elm Elm_66, Elm Elm_67, Elm Elm_68) {
-    return new Bool(oper_doubleRight_7, Elm_64, Elm_65, Elm_66, Elm_67, Elm_68);
+  public static Bool doubleRight_8(Elm Elm_64, Elm Elm_65, Elm Elm_66, Elm Elm_67, Elm Elm_68) {
+    return new Bool(oper_doubleRight_8, Elm_64, Elm_65, Elm_66, Elm_67, Elm_68);
   }
-  public static Bool doubleRight_6(Elm Elm_69, Elm Elm_70, Elm Elm_71, Elm Elm_72, Elm Elm_73) {
-    return new Bool(oper_doubleRight_6, Elm_69, Elm_70, Elm_71, Elm_72, Elm_73);
+  public static Bool doubleRight_7(Elm Elm_69, Elm Elm_70, Elm Elm_71, Elm Elm_72, Elm Elm_73) {
+    return new Bool(oper_doubleRight_7, Elm_69, Elm_70, Elm_71, Elm_72, Elm_73);
   }
-  public static Bool doubleRight_5(Elm Elm_74, Elm Elm_75, Elm Elm_76, Elm Elm_77, Elm Elm_78) {
-    return new Bool(oper_doubleRight_5, Elm_74, Elm_75, Elm_76, Elm_77, Elm_78);
+  public static Bool doubleRight_6(Elm Elm_74, Elm Elm_75, Elm Elm_76, Elm Elm_77, Elm Elm_78) {
+    return new Bool(oper_doubleRight_6, Elm_74, Elm_75, Elm_76, Elm_77, Elm_78);
   }
-  public static Bool doubleRight_4(Elm Elm_79, Elm Elm_80, Elm Elm_81, Elm Elm_82, Elm Elm_83) {
-    return new Bool(oper_doubleRight_4, Elm_79, Elm_80, Elm_81, Elm_82, Elm_83);
+  public static Bool doubleRight_5(Elm Elm_79, Elm Elm_80, Elm Elm_81, Elm Elm_82, Elm Elm_83) {
+    return new Bool(oper_doubleRight_5, Elm_79, Elm_80, Elm_81, Elm_82, Elm_83);
   }
-  public static Bool doubleRight_3(Elm Elm_84, Elm Elm_85, Elm Elm_86, Elm Elm_87, Elm Elm_88) {
-    return new Bool(oper_doubleRight_3, Elm_84, Elm_85, Elm_86, Elm_87, Elm_88);
+  public static Bool doubleRight_4(Elm Elm_84, Elm Elm_85, Elm Elm_86, Elm Elm_87, Elm Elm_88) {
+    return new Bool(oper_doubleRight_4, Elm_84, Elm_85, Elm_86, Elm_87, Elm_88);
   }
-  public static Bool doubleRight_2(Elm Elm_89, Elm Elm_90, Elm Elm_91, Elm Elm_92, Elm Elm_93) {
-    return new Bool(oper_doubleRight_2, Elm_89, Elm_90, Elm_91, Elm_92, Elm_93);
+  public static Bool doubleRight_3(Elm Elm_89, Elm Elm_90, Elm Elm_91, Elm Elm_92, Elm Elm_93) {
+    return new Bool(oper_doubleRight_3, Elm_89, Elm_90, Elm_91, Elm_92, Elm_93);
   }
-  public static Bool doubleRight_1(Elm Elm_94, Elm Elm_95, Elm Elm_96, Elm Elm_97, Elm Elm_98) {
-    return new Bool(oper_doubleRight_1, Elm_94, Elm_95, Elm_96, Elm_97, Elm_98);
+  public static Bool doubleRight_2(Elm Elm_94, Elm Elm_95, Elm Elm_96, Elm Elm_97, Elm Elm_98) {
+    return new Bool(oper_doubleRight_2, Elm_94, Elm_95, Elm_96, Elm_97, Elm_98);
   }
-  public static Bool doubleLeft_1(Elm Elm_99, Elm Elm_100, Elm Elm_101, Elm Elm_102, Elm Elm_103) {
-    return new Bool(oper_doubleLeft_1, Elm_99, Elm_100, Elm_101, Elm_102, Elm_103);
+  public static Bool doubleRight_1(Elm Elm_99, Elm Elm_100, Elm Elm_101, Elm Elm_102, Elm Elm_103) {
+    return new Bool(oper_doubleRight_1, Elm_99, Elm_100, Elm_101, Elm_102, Elm_103);
   }
-  public static Bool doubleLeft_2(Elm Elm_104, Elm Elm_105, Elm Elm_106, Elm Elm_107, Elm Elm_108) {
-    return new Bool(oper_doubleLeft_2, Elm_104, Elm_105, Elm_106, Elm_107, Elm_108);
+  public static Bool doubleLeft_1(Elm Elm_104, Elm Elm_105, Elm Elm_106, Elm Elm_107, Elm Elm_108) {
+    return new Bool(oper_doubleLeft_1, Elm_104, Elm_105, Elm_106, Elm_107, Elm_108);
   }
-  public static Bool doubleLeft_3(Elm Elm_109, Elm Elm_110, Elm Elm_111, Elm Elm_112, Elm Elm_113) {
-    return new Bool(oper_doubleLeft_3, Elm_109, Elm_110, Elm_111, Elm_112, Elm_113);
+  public static Bool doubleLeft_2(Elm Elm_109, Elm Elm_110, Elm Elm_111, Elm Elm_112, Elm Elm_113) {
+    return new Bool(oper_doubleLeft_2, Elm_109, Elm_110, Elm_111, Elm_112, Elm_113);
   }
-  public static Bool doubleLeft_4(Elm Elm_114, Elm Elm_115, Elm Elm_116, Elm Elm_117, Elm Elm_118) {
-    return new Bool(oper_doubleLeft_4, Elm_114, Elm_115, Elm_116, Elm_117, Elm_118);
+  public static Bool doubleLeft_3(Elm Elm_114, Elm Elm_115, Elm Elm_116, Elm Elm_117, Elm Elm_118) {
+    return new Bool(oper_doubleLeft_3, Elm_114, Elm_115, Elm_116, Elm_117, Elm_118);
   }
-  public static Bool doubleLeft_5(Elm Elm_119, Elm Elm_120, Elm Elm_121, Elm Elm_122, Elm Elm_123) {
-    return new Bool(oper_doubleLeft_5, Elm_119, Elm_120, Elm_121, Elm_122, Elm_123);
+  public static Bool doubleLeft_4(Elm Elm_119, Elm Elm_120, Elm Elm_121, Elm Elm_122, Elm Elm_123) {
+    return new Bool(oper_doubleLeft_4, Elm_119, Elm_120, Elm_121, Elm_122, Elm_123);
   }
-  public static Bool doubleLeft_6(Elm Elm_124, Elm Elm_125, Elm Elm_126, Elm Elm_127, Elm Elm_128) {
-    return new Bool(oper_doubleLeft_6, Elm_124, Elm_125, Elm_126, Elm_127, Elm_128);
+  public static Bool doubleLeft_5(Elm Elm_124, Elm Elm_125, Elm Elm_126, Elm Elm_127, Elm Elm_128) {
+    return new Bool(oper_doubleLeft_5, Elm_124, Elm_125, Elm_126, Elm_127, Elm_128);
   }
-  public static Bool doubleLeft_7(Elm Elm_129, Elm Elm_130, Elm Elm_131, Elm Elm_132, Elm Elm_133) {
-    return new Bool(oper_doubleLeft_7, Elm_129, Elm_130, Elm_131, Elm_132, Elm_133);
+  public static Bool doubleLeft_6(Elm Elm_129, Elm Elm_130, Elm Elm_131, Elm Elm_132, Elm Elm_133) {
+    return new Bool(oper_doubleLeft_6, Elm_129, Elm_130, Elm_131, Elm_132, Elm_133);
   }
-  public static Bool doubleLeft_8(Elm Elm_134, Elm Elm_135, Elm Elm_136, Elm Elm_137, Elm Elm_138) {
-    return new Bool(oper_doubleLeft_8, Elm_134, Elm_135, Elm_136, Elm_137, Elm_138);
+  public static Bool doubleLeft_7(Elm Elm_134, Elm Elm_135, Elm Elm_136, Elm Elm_137, Elm Elm_138) {
+    return new Bool(oper_doubleLeft_7, Elm_134, Elm_135, Elm_136, Elm_137, Elm_138);
   }
-  public static Bool DoubleL_R_1(Elm Elm_139, Elm Elm_140, Elm Elm_141, Elm Elm_142, Elm Elm_143) {
-    return new Bool(oper_DoubleL_R_1, Elm_139, Elm_140, Elm_141, Elm_142, Elm_143);
+  public static Bool doubleLeft_8(Elm Elm_139, Elm Elm_140, Elm Elm_141, Elm Elm_142, Elm Elm_143) {
+    return new Bool(oper_doubleLeft_8, Elm_139, Elm_140, Elm_141, Elm_142, Elm_143);
   }
-  public static Bool DoubleL_R_2(Elm Elm_144, Elm Elm_145, Elm Elm_146, Elm Elm_147, Elm Elm_148) {
-    return new Bool(oper_DoubleL_R_2, Elm_144, Elm_145, Elm_146, Elm_147, Elm_148);
+  public static Bool doubleLeft_9(Elm Elm_144, Elm Elm_145, Elm Elm_146, Elm Elm_147, Elm Elm_148) {
+    return new Bool(oper_doubleLeft_9, Elm_144, Elm_145, Elm_146, Elm_147, Elm_148);
   }
-  public static Bool DoubleL_R_3(Elm Elm_149, Elm Elm_150, Elm Elm_151, Elm Elm_152, Elm Elm_153) {
-    return new Bool(oper_DoubleL_R_3, Elm_149, Elm_150, Elm_151, Elm_152, Elm_153);
+  public static Bool DoubleL_R_1(Elm Elm_149, Elm Elm_150, Elm Elm_151, Elm Elm_152, Elm Elm_153) {
+    return new Bool(oper_DoubleL_R_1, Elm_149, Elm_150, Elm_151, Elm_152, Elm_153);
   }
-  public static Bool DoubleL_R_4(Elm Elm_154, Elm Elm_155, Elm Elm_156, Elm Elm_157, Elm Elm_158) {
-    return new Bool(oper_DoubleL_R_4, Elm_154, Elm_155, Elm_156, Elm_157, Elm_158);
+  public static Bool DoubleL_R_2(Elm Elm_154, Elm Elm_155, Elm Elm_156, Elm Elm_157, Elm Elm_158) {
+    return new Bool(oper_DoubleL_R_2, Elm_154, Elm_155, Elm_156, Elm_157, Elm_158);
   }
-  public static Bool DoubleL_R_5(Elm Elm_159, Elm Elm_160, Elm Elm_161, Elm Elm_162, Elm Elm_163) {
-    return new Bool(oper_DoubleL_R_5, Elm_159, Elm_160, Elm_161, Elm_162, Elm_163);
+  public static Bool DoubleL_R_3(Elm Elm_159, Elm Elm_160, Elm Elm_161, Elm Elm_162, Elm Elm_163) {
+    return new Bool(oper_DoubleL_R_3, Elm_159, Elm_160, Elm_161, Elm_162, Elm_163);
   }
-  public static Bool DoubleL_R_6(Elm Elm_164, Elm Elm_165, Elm Elm_166, Elm Elm_167, Elm Elm_168) {
-    return new Bool(oper_DoubleL_R_6, Elm_164, Elm_165, Elm_166, Elm_167, Elm_168);
+  public static Bool DoubleL_R_4(Elm Elm_164, Elm Elm_165, Elm Elm_166, Elm Elm_167, Elm Elm_168) {
+    return new Bool(oper_DoubleL_R_4, Elm_164, Elm_165, Elm_166, Elm_167, Elm_168);
   }
-  public static Bool DoubleL_R_7(Elm Elm_169, Elm Elm_170, Elm Elm_171, Elm Elm_172, Elm Elm_173) {
-    return new Bool(oper_DoubleL_R_7, Elm_169, Elm_170, Elm_171, Elm_172, Elm_173);
+  public static Bool DoubleL_R_5(Elm Elm_169, Elm Elm_170, Elm Elm_171, Elm Elm_172, Elm Elm_173) {
+    return new Bool(oper_DoubleL_R_5, Elm_169, Elm_170, Elm_171, Elm_172, Elm_173);
   }
-  public static Bool DoubleL_R_8(Elm Elm_174, Elm Elm_175, Elm Elm_176, Elm Elm_177, Elm Elm_178) {
-    return new Bool(oper_DoubleL_R_8, Elm_174, Elm_175, Elm_176, Elm_177, Elm_178);
+  public static Bool DoubleL_R_6(Elm Elm_174, Elm Elm_175, Elm Elm_176, Elm Elm_177, Elm Elm_178) {
+    return new Bool(oper_DoubleL_R_6, Elm_174, Elm_175, Elm_176, Elm_177, Elm_178);
   }
-  public static Bool DoubleL_R_9(Elm Elm_179, Elm Elm_180, Elm Elm_181, Elm Elm_182, Elm Elm_183) {
-    return new Bool(oper_DoubleL_R_9, Elm_179, Elm_180, Elm_181, Elm_182, Elm_183);
+  public static Bool DoubleL_R_7(Elm Elm_179, Elm Elm_180, Elm Elm_181, Elm Elm_182, Elm Elm_183) {
+    return new Bool(oper_DoubleL_R_7, Elm_179, Elm_180, Elm_181, Elm_182, Elm_183);
   }
-  public static Bool DoubleL_R_10(Elm Elm_184, Elm Elm_185, Elm Elm_186, Elm Elm_187, Elm Elm_188) {
-    return new Bool(oper_DoubleL_R_10, Elm_184, Elm_185, Elm_186, Elm_187, Elm_188);
+  public static Bool DoubleL_R_8(Elm Elm_184, Elm Elm_185, Elm Elm_186, Elm Elm_187, Elm Elm_188) {
+    return new Bool(oper_DoubleL_R_8, Elm_184, Elm_185, Elm_186, Elm_187, Elm_188);
   }
-  public static Bool edge_1(Elm Elm_189, Elm Elm_190, Elm Elm_191, Elm Elm_192, Elm Elm_193) {
-    return new Bool(oper_edge_1, Elm_189, Elm_190, Elm_191, Elm_192, Elm_193);
+  public static Bool DoubleL_R_9(Elm Elm_189, Elm Elm_190, Elm Elm_191, Elm Elm_192, Elm Elm_193) {
+    return new Bool(oper_DoubleL_R_9, Elm_189, Elm_190, Elm_191, Elm_192, Elm_193);
   }
-  public static Bool edge_2(Elm Elm_194, Elm Elm_195, Elm Elm_196, Elm Elm_197, Elm Elm_198) {
-    return new Bool(oper_edge_2, Elm_194, Elm_195, Elm_196, Elm_197, Elm_198);
+  public static Bool DoubleL_R_10(Elm Elm_194, Elm Elm_195, Elm Elm_196, Elm Elm_197, Elm Elm_198) {
+    return new Bool(oper_DoubleL_R_10, Elm_194, Elm_195, Elm_196, Elm_197, Elm_198);
   }
-  public static Bool edge_3(Elm Elm_199, Elm Elm_200, Elm Elm_201, Elm Elm_202, Elm Elm_203) {
-    return new Bool(oper_edge_3, Elm_199, Elm_200, Elm_201, Elm_202, Elm_203);
+  public static Bool edge_1(Elm Elm_199, Elm Elm_200, Elm Elm_201, Elm Elm_202, Elm Elm_203) {
+    return new Bool(oper_edge_1, Elm_199, Elm_200, Elm_201, Elm_202, Elm_203);
   }
-  public static Bool edge_4(Elm Elm_204, Elm Elm_205, Elm Elm_206, Elm Elm_207, Elm Elm_208) {
-    return new Bool(oper_edge_4, Elm_204, Elm_205, Elm_206, Elm_207, Elm_208);
+  public static Bool edge_2(Elm Elm_204, Elm Elm_205, Elm Elm_206, Elm Elm_207, Elm Elm_208) {
+    return new Bool(oper_edge_2, Elm_204, Elm_205, Elm_206, Elm_207, Elm_208);
   }
-  public static Bool edge_5(Elm Elm_209, Elm Elm_210, Elm Elm_211, Elm Elm_212, Elm Elm_213) {
-    return new Bool(oper_edge_5, Elm_209, Elm_210, Elm_211, Elm_212, Elm_213);
+  public static Bool edge_3(Elm Elm_209, Elm Elm_210, Elm Elm_211, Elm Elm_212, Elm Elm_213) {
+    return new Bool(oper_edge_3, Elm_209, Elm_210, Elm_211, Elm_212, Elm_213);
   }
-  public static Bool edge_6(Elm Elm_214, Elm Elm_215, Elm Elm_216, Elm Elm_217, Elm Elm_218) {
-    return new Bool(oper_edge_6, Elm_214, Elm_215, Elm_216, Elm_217, Elm_218);
+  public static Bool edge_4(Elm Elm_214, Elm Elm_215, Elm Elm_216, Elm Elm_217, Elm Elm_218) {
+    return new Bool(oper_edge_4, Elm_214, Elm_215, Elm_216, Elm_217, Elm_218);
   }
-  public static Bool edge_7(Elm Elm_219, Elm Elm_220, Elm Elm_221, Elm Elm_222, Elm Elm_223) {
-    return new Bool(oper_edge_7, Elm_219, Elm_220, Elm_221, Elm_222, Elm_223);
+  public static Bool edge_5(Elm Elm_219, Elm Elm_220, Elm Elm_221, Elm Elm_222, Elm Elm_223) {
+    return new Bool(oper_edge_5, Elm_219, Elm_220, Elm_221, Elm_222, Elm_223);
   }
-  public static Bool edge_8(Elm Elm_224, Elm Elm_225, Elm Elm_226, Elm Elm_227, Elm Elm_228) {
-    return new Bool(oper_edge_8, Elm_224, Elm_225, Elm_226, Elm_227, Elm_228);
+  public static Bool edge_6(Elm Elm_224, Elm Elm_225, Elm Elm_226, Elm Elm_227, Elm Elm_228) {
+    return new Bool(oper_edge_6, Elm_224, Elm_225, Elm_226, Elm_227, Elm_228);
   }
-  public static Bool edge_9(Elm Elm_229, Elm Elm_230, Elm Elm_231, Elm Elm_232, Elm Elm_233) {
-    return new Bool(oper_edge_9, Elm_229, Elm_230, Elm_231, Elm_232, Elm_233);
+  public static Bool edge_7(Elm Elm_229, Elm Elm_230, Elm Elm_231, Elm Elm_232, Elm Elm_233) {
+    return new Bool(oper_edge_7, Elm_229, Elm_230, Elm_231, Elm_232, Elm_233);
   }
-  public static Bool corner_1(Elm Elm_234, Elm Elm_235, Elm Elm_236, Elm Elm_237, Elm Elm_238) {
-    return new Bool(oper_corner_1, Elm_234, Elm_235, Elm_236, Elm_237, Elm_238);
+  public static Bool edge_8(Elm Elm_234, Elm Elm_235, Elm Elm_236, Elm Elm_237, Elm Elm_238) {
+    return new Bool(oper_edge_8, Elm_234, Elm_235, Elm_236, Elm_237, Elm_238);
   }
-  public static Bool corner_2(Elm Elm_239, Elm Elm_240, Elm Elm_241, Elm Elm_242, Elm Elm_243) {
-    return new Bool(oper_corner_2, Elm_239, Elm_240, Elm_241, Elm_242, Elm_243);
+  public static Bool edge_9(Elm Elm_239, Elm Elm_240, Elm Elm_241, Elm Elm_242, Elm Elm_243) {
+    return new Bool(oper_edge_9, Elm_239, Elm_240, Elm_241, Elm_242, Elm_243);
   }
-  public static Bool corner_3(Elm Elm_244, Elm Elm_245, Elm Elm_246, Elm Elm_247, Elm Elm_248) {
-    return new Bool(oper_corner_3, Elm_244, Elm_245, Elm_246, Elm_247, Elm_248);
+  public static Bool corner_1(Elm Elm_244, Elm Elm_245, Elm Elm_246, Elm Elm_247, Elm Elm_248) {
+    return new Bool(oper_corner_1, Elm_244, Elm_245, Elm_246, Elm_247, Elm_248);
   }
-  public static Bool corner_4(Elm Elm_249, Elm Elm_250, Elm Elm_251, Elm Elm_252, Elm Elm_253) {
-    return new Bool(oper_corner_4, Elm_249, Elm_250, Elm_251, Elm_252, Elm_253);
+  public static Bool corner_2(Elm Elm_249, Elm Elm_250, Elm Elm_251, Elm Elm_252, Elm Elm_253) {
+    return new Bool(oper_corner_2, Elm_249, Elm_250, Elm_251, Elm_252, Elm_253);
   }
-  public static Bool corner_5(Elm Elm_254, Elm Elm_255, Elm Elm_256, Elm Elm_257, Elm Elm_258) {
-    return new Bool(oper_corner_5, Elm_254, Elm_255, Elm_256, Elm_257, Elm_258);
+  public static Bool corner_3(Elm Elm_254, Elm Elm_255, Elm Elm_256, Elm Elm_257, Elm Elm_258) {
+    return new Bool(oper_corner_3, Elm_254, Elm_255, Elm_256, Elm_257, Elm_258);
   }
-  public static Bool corner_6(Elm Elm_259, Elm Elm_260, Elm Elm_261, Elm Elm_262, Elm Elm_263) {
-    return new Bool(oper_corner_6, Elm_259, Elm_260, Elm_261, Elm_262, Elm_263);
+  public static Bool corner_4(Elm Elm_259, Elm Elm_260, Elm Elm_261, Elm Elm_262, Elm Elm_263) {
+    return new Bool(oper_corner_4, Elm_259, Elm_260, Elm_261, Elm_262, Elm_263);
   }
-  public static Bool CheckAllSingles(Elm Elm_264, Elm Elm_265, Elm Elm_266, Elm Elm_267, Elm Elm_268) {
-    return new Bool(oper_CheckAllSingles, Elm_264, Elm_265, Elm_266, Elm_267, Elm_268);
+  public static Bool corner_5(Elm Elm_264, Elm Elm_265, Elm Elm_266, Elm Elm_267, Elm Elm_268) {
+    return new Bool(oper_corner_5, Elm_264, Elm_265, Elm_266, Elm_267, Elm_268);
   }
-  public static Bool CheckAllDoubleRights(Elm Elm_269, Elm Elm_270, Elm Elm_271, Elm Elm_272, Elm Elm_273) {
-    return new Bool(oper_CheckAllDoubleRights, Elm_269, Elm_270, Elm_271, Elm_272, Elm_273);
+  public static Bool corner_6(Elm Elm_269, Elm Elm_270, Elm Elm_271, Elm Elm_272, Elm Elm_273) {
+    return new Bool(oper_corner_6, Elm_269, Elm_270, Elm_271, Elm_272, Elm_273);
   }
-  public static Bool CheckAllDoubleLefts(Elm Elm_274, Elm Elm_275, Elm Elm_276, Elm Elm_277, Elm Elm_278) {
-    return new Bool(oper_CheckAllDoubleLefts, Elm_274, Elm_275, Elm_276, Elm_277, Elm_278);
+  public static Bool CheckAllSingles(Elm Elm_274, Elm Elm_275, Elm Elm_276, Elm Elm_277, Elm Elm_278) {
+    return new Bool(oper_CheckAllSingles, Elm_274, Elm_275, Elm_276, Elm_277, Elm_278);
   }
-  public static Bool CheckAllDoubleL_Rs(Elm Elm_279, Elm Elm_280, Elm Elm_281, Elm Elm_282, Elm Elm_283) {
-    return new Bool(oper_CheckAllDoubleL_Rs, Elm_279, Elm_280, Elm_281, Elm_282, Elm_283);
+  public static Bool CheckAllDoubleRights(Elm Elm_279, Elm Elm_280, Elm Elm_281, Elm Elm_282, Elm Elm_283) {
+    return new Bool(oper_CheckAllDoubleRights, Elm_279, Elm_280, Elm_281, Elm_282, Elm_283);
   }
-  public static Bool CheckAllEdges(Elm Elm_284, Elm Elm_285, Elm Elm_286, Elm Elm_287, Elm Elm_288) {
-    return new Bool(oper_CheckAllEdges, Elm_284, Elm_285, Elm_286, Elm_287, Elm_288);
+  public static Bool CheckAllDoubleLefts(Elm Elm_284, Elm Elm_285, Elm Elm_286, Elm Elm_287, Elm Elm_288) {
+    return new Bool(oper_CheckAllDoubleLefts, Elm_284, Elm_285, Elm_286, Elm_287, Elm_288);
   }
-  public static Bool CheckAllCorners(Elm Elm_289, Elm Elm_290, Elm Elm_291, Elm Elm_292, Elm Elm_293) {
-    return new Bool(oper_CheckAllCorners, Elm_289, Elm_290, Elm_291, Elm_292, Elm_293);
+  public static Bool CheckAllDoubleL_Rs(Elm Elm_289, Elm Elm_290, Elm Elm_291, Elm Elm_292, Elm Elm_293) {
+    return new Bool(oper_CheckAllDoubleL_Rs, Elm_289, Elm_290, Elm_291, Elm_292, Elm_293);
   }
-  public static Bool GroupChecker_1(Elm Elm_294, Elm Elm_295, Elm Elm_296, Elm Elm_297, Elm Elm_298) {
-    return new Bool(oper_GroupChecker_1, Elm_294, Elm_295, Elm_296, Elm_297, Elm_298);
+  public static Bool CheckAllEdges(Elm Elm_294, Elm Elm_295, Elm Elm_296, Elm Elm_297, Elm Elm_298) {
+    return new Bool(oper_CheckAllEdges, Elm_294, Elm_295, Elm_296, Elm_297, Elm_298);
   }
-  public static Bool GroupChecker_2(Elm Elm_299, Elm Elm_300, Elm Elm_301, Elm Elm_302, Elm Elm_303) {
-    return new Bool(oper_GroupChecker_2, Elm_299, Elm_300, Elm_301, Elm_302, Elm_303);
+  public static Bool CheckAllCorners(Elm Elm_299, Elm Elm_300, Elm Elm_301, Elm Elm_302, Elm Elm_303) {
+    return new Bool(oper_CheckAllCorners, Elm_299, Elm_300, Elm_301, Elm_302, Elm_303);
   }
-  public static Bool GroupChecker_3(Elm Elm_304, Elm Elm_305, Elm Elm_306, Elm Elm_307, Elm Elm_308) {
-    return new Bool(oper_GroupChecker_3, Elm_304, Elm_305, Elm_306, Elm_307, Elm_308);
+  public static Bool GroupChecker_1(Elm Elm_304, Elm Elm_305, Elm Elm_306, Elm Elm_307, Elm Elm_308) {
+    return new Bool(oper_GroupChecker_1, Elm_304, Elm_305, Elm_306, Elm_307, Elm_308);
   }
-  public static Bool GroupChecker_4(Elm Elm_309, Elm Elm_310, Elm Elm_311, Elm Elm_312, Elm Elm_313) {
-    return new Bool(oper_GroupChecker_4, Elm_309, Elm_310, Elm_311, Elm_312, Elm_313);
+  public static Bool GroupChecker_2(Elm Elm_309, Elm Elm_310, Elm Elm_311, Elm Elm_312, Elm Elm_313) {
+    return new Bool(oper_GroupChecker_2, Elm_309, Elm_310, Elm_311, Elm_312, Elm_313);
   }
-  public static Bool CheckSmallLoops(Elm Elm_314, Elm Elm_315, Elm Elm_316, Elm Elm_317, Elm Elm_318) {
-    return new Bool(oper_CheckSmallLoops, Elm_314, Elm_315, Elm_316, Elm_317, Elm_318);
+  public static Bool GroupChecker_3(Elm Elm_314, Elm Elm_315, Elm Elm_316, Elm Elm_317, Elm Elm_318) {
+    return new Bool(oper_GroupChecker_3, Elm_314, Elm_315, Elm_316, Elm_317, Elm_318);
+  }
+  public static Bool GroupChecker_4(Elm Elm_319, Elm Elm_320, Elm Elm_321, Elm Elm_322, Elm Elm_323) {
+    return new Bool(oper_GroupChecker_4, Elm_319, Elm_320, Elm_321, Elm_322, Elm_323);
+  }
+  public static Bool CheckSmallLoops(Elm Elm_324, Elm Elm_325, Elm Elm_326, Elm Elm_327, Elm Elm_328) {
+    return new Bool(oper_CheckSmallLoops, Elm_324, Elm_325, Elm_326, Elm_327, Elm_328);
   }
   public static Bool CheckSmallRectLoops(Line Line_15, Line Line_16, Line Line_17) {
     return new Bool(oper_CheckSmallRectLoops, Line_15, Line_16, Line_17);
@@ -533,8 +541,8 @@ public abstract class SLANT {
     ITerm.axiom(SLANT.GroupChecker_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(SLANT.CheckAllCorners(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.CheckAllCorners(SLANT.s1, SLANT.s3, SLANT.n, SLANT.s2, SLANT.s4)), SLANT.CheckAllCorners(SLANT.s4, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s1)));
     ITerm.axiom(SLANT.GroupChecker_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.CheckAllDoubleL_Rs(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.CheckAllDoubleL_Rs(SLANT.s1, SLANT.s3, SLANT.n, SLANT.s2, SLANT.s4)), SLANT.CheckAllDoubleL_Rs(SLANT.s4, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s1)), SLANT.CheckAllDoubleL_Rs(SLANT.s4, SLANT.s3, SLANT.n, SLANT.s2, SLANT.s1)));
     ITerm.axiom(SLANT.CheckAllSingles(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.single_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.single_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.single_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
-    ITerm.axiom(SLANT.CheckAllDoubleRights(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.doubleRight_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.doubleRight_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
-    ITerm.axiom(SLANT.CheckAllDoubleLefts(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.doubleLeft_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.doubleLeft_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
+    ITerm.axiom(SLANT.CheckAllDoubleRights(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.doubleRight_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.doubleRight_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleRight_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
+    ITerm.axiom(SLANT.CheckAllDoubleLefts(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.doubleLeft_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.doubleLeft_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.doubleLeft_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
     ITerm.axiom(SLANT.CheckAllDoubleL_Rs(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.DoubleL_R_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.DoubleL_R_10(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.DoubleL_R_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
     ITerm.axiom(SLANT.CheckAllEdges(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.edge_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.edge_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.edge_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
     ITerm.axiom(SLANT.CheckAllCorners(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(SLANT.corner_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), SLANT.corner_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.corner_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.corner_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.corner_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)), SLANT.corner_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4)));
@@ -559,6 +567,7 @@ public abstract class SLANT {
     ITerm.axiom(SLANT.doubleLeft_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._3()), BOOLEAN.Equal(SLANT.n, SLANT._4()))))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.doubleLeft_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3()))))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.doubleLeft_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Equal(SLANT.n, SLANT._2()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
+    ITerm.axiom(SLANT.doubleLeft_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.doubleRight_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._1())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
     ITerm.axiom(SLANT.doubleRight_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._3())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.doubleRight_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._3()), BOOLEAN.Equal(SLANT.n, SLANT._4()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
@@ -567,6 +576,7 @@ public abstract class SLANT {
     ITerm.axiom(SLANT.doubleRight_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._3()), BOOLEAN.Equal(SLANT.n, SLANT._4()))))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.doubleRight_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3()))))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.doubleRight_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Equal(SLANT.n, SLANT._2()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
+    ITerm.axiom(SLANT.doubleRight_9(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.DoubleL_R_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3())))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.DoubleL_R_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Equal(SLANT.n, SLANT._3())))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
     ITerm.axiom(SLANT.DoubleL_R_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._2()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._3()), BOOLEAN.Equal(SLANT.n, SLANT._4())))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.x()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
@@ -579,9 +589,9 @@ public abstract class SLANT {
     ITerm.axiom(SLANT.DoubleL_R_10(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._2())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.b_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.f_slash()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
     ITerm.axiom(SLANT.edge_1(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Equal(SLANT.n, SLANT._2())))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.edge_2(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Equal(SLANT.n, SLANT._1()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
-    ITerm.axiom(SLANT.edge_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Equal(SLANT.n, SLANT._2()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
+    ITerm.axiom(SLANT.edge_3(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._0()), BOOLEAN.Equal(SLANT.n, SLANT._1()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
     ITerm.axiom(SLANT.edge_4(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT._1()), BOOLEAN.Equal(SLANT.n, SLANT._2()))), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.x()))))));
-    ITerm.axiom(SLANT.edge_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._0())), BOOLEAN.Equal(SLANT.n, SLANT._1())), BOOLEAN.Equal(SLANT.n, SLANT._2())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
+    ITerm.axiom(SLANT.edge_5(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._1())), BOOLEAN.Equal(SLANT.n, SLANT._2())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.x()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.edge_6(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._0())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.f_slash()))))));
     ITerm.axiom(SLANT.edge_7(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._2())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.f_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
     ITerm.axiom(SLANT.edge_8(SLANT.s1, SLANT.s2, SLANT.n, SLANT.s3, SLANT.s4), BOOLEAN.And(BOOLEAN.Or(BOOLEAN.Equal(SLANT.n, SLANT.__()), BOOLEAN.Equal(SLANT.n, SLANT._1())), BOOLEAN.And(BOOLEAN.Equal(SLANT.s1, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s2, SLANT.empty()), BOOLEAN.And(BOOLEAN.Equal(SLANT.s3, SLANT.b_slash()), BOOLEAN.Equal(SLANT.s4, SLANT.b_slash()))))));
@@ -621,7 +631,8 @@ public abstract class SLANT {
     Reductions.initReduction(Reductions.Traversal.DFS, false, 0, SLANT.correctBoard(SLANT.mkBoard(SLANT.mkLine(SLANT.mkBlock(SLANT.empty(), SLANT.empty(), SLANT.__(), SLANT.empty(), SLANT.x()), SLANT.mkBlock(SLANT.empty(), SLANT.empty(), SLANT.__(), SLANT.x(), SLANT.f_slash()), SLANT.mkBlock(SLANT.empty(), SLANT.empty(), SLANT.__(), SLANT.f_slash(), SLANT.b_slash()), SLANT.mkBlock(SLANT.empty(), SLANT.empty(), SLANT.__(), SLANT.b_slash(), SLANT.x()), SLANT.mkBlock(SLANT.empty(), SLANT.empty(), SLANT.__(), SLANT.x(), SLANT.empty())), SLANT.mkLine(SLANT.mkBlock(SLANT.empty(), SLANT.x(), SLANT.__(), SLANT.empty(), SLANT.f_slash()), SLANT.mkBlock(SLANT.x(), SLANT.f_slash(), SLANT.__(), SLANT.f_slash(), SLANT.x()), SLANT.mkBlock(SLANT.f_slash(), SLANT.b_slash(), SLANT.__(), SLANT.x(), SLANT.x()), SLANT.mkBlock(SLANT.b_slash(), SLANT.x(), SLANT.__(), SLANT.x(), SLANT.b_slash()), SLANT.mkBlock(SLANT.x(), SLANT.empty(), SLANT.__(), SLANT.b_slash(), SLANT.empty())), SLANT.mkLine(SLANT.mkBlock(SLANT.empty(), SLANT.f_slash(), SLANT.__(), SLANT.empty(), SLANT.b_slash()), SLANT.mkBlock(SLANT.f_slash(), SLANT.x(), SLANT.__(), SLANT.b_slash(), SLANT.x()), SLANT.mkBlock(SLANT.x(), SLANT.x(), SLANT.__(), SLANT.x(), SLANT.x()), SLANT.mkBlock(SLANT.x(), SLANT.b_slash(), SLANT.__(), SLANT.x(), SLANT.f_slash()), SLANT.mkBlock(SLANT.b_slash(), SLANT.empty(), SLANT.__(), SLANT.f_slash(), SLANT.empty())), SLANT.mkLine(SLANT.mkBlock(SLANT.empty(), SLANT.b_slash(), SLANT.__(), SLANT.empty(), SLANT.x()), SLANT.mkBlock(SLANT.b_slash(), SLANT.x(), SLANT.__(), SLANT.x(), SLANT.b_slash()), SLANT.mkBlock(SLANT.x(), SLANT.x(), SLANT.__(), SLANT.b_slash(), SLANT.f_slash()), SLANT.mkBlock(SLANT.x(), SLANT.f_slash(), SLANT.__(), SLANT.f_slash(), SLANT.x()), SLANT.mkBlock(SLANT.f_slash(), SLANT.empty(), SLANT.__(), SLANT.x(), SLANT.empty())), SLANT.mkLine(SLANT.mkBlock(SLANT.empty(), SLANT.x(), SLANT.__(), SLANT.empty(), SLANT.empty()), SLANT.mkBlock(SLANT.x(), SLANT.b_slash(), SLANT.__(), SLANT.empty(), SLANT.empty()), SLANT.mkBlock(SLANT.b_slash(), SLANT.f_slash(), SLANT.__(), SLANT.empty(), SLANT.empty()), SLANT.mkBlock(SLANT.f_slash(), SLANT.x(), SLANT.__(), SLANT.empty(), SLANT.empty()), SLANT.mkBlock(SLANT.x(), SLANT.empty(), SLANT.__(), SLANT.empty(), SLANT.empty())))));
 
     Reductions.initReduction(Reductions.Traversal.DFS, false, 0, SLANT.inputBoardMapper(SLANT.inputLineNumb(SLANT._1(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.b_slash(), SLANT.b_slash(), SLANT.b_slash(), SLANT.b_slash()), SLANT.inputLineNumb(SLANT.__(), SLANT._2(), SLANT._1(), SLANT.__(), SLANT._1()), SLANT.inputLineSlant(SLANT.b_slash(), SLANT.b_slash(), SLANT.f_slash(), SLANT.b_slash()), SLANT.inputLineNumb(SLANT._0(), SLANT._3(), SLANT.__(), SLANT._2(), SLANT.__()), SLANT.inputLineSlant(SLANT.f_slash(), SLANT.b_slash(), SLANT.f_slash(), SLANT.b_slash()), SLANT.inputLineNumb(SLANT._1(), SLANT._1(), SLANT._3(), SLANT.__(), SLANT._1()), SLANT.inputLineSlant(SLANT.x(), SLANT.f_slash(), SLANT.f_slash(), SLANT.b_slash()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT._1(), SLANT.__(), SLANT._1())));
-    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.inputBoardMapper(SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.x(), SLANT.x(), SLANT.x(), SLANT.x()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.x(), SLANT.x(), SLANT.x(), SLANT.x()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.x(), SLANT.x(), SLANT.x(), SLANT.x()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.x(), SLANT.x(), SLANT.x(), SLANT.x()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__(), SLANT.__())));
+    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.inputBoardMapper(SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT.__(), SLANT._0(), SLANT.__()), SLANT.inputLineSlant(SLANT.f_slash(), SLANT.b_slash(), SLANT.b_slash(), SLANT.x()), SLANT.inputLineNumb(SLANT.__(), SLANT._1(), SLANT._1(), SLANT._3(), SLANT._1()), SLANT.inputLineSlant(SLANT.f_slash(), SLANT.x(), SLANT.f_slash(), SLANT.b_slash()), SLANT.inputLineNumb(SLANT.__(), SLANT.__(), SLANT._2(), SLANT.__(), SLANT.__()), SLANT.inputLineSlant(SLANT.b_slash(), SLANT.b_slash(), SLANT.f_slash(), SLANT.f_slash()), SLANT.inputLineNumb(SLANT.__(), SLANT._1(), SLANT._3(), SLANT.__(), SLANT._0()), SLANT.inputLineSlant(SLANT.x(), SLANT.f_slash(), SLANT.f_slash(), SLANT.x()), SLANT.inputLineNumb(SLANT._1(), SLANT.__(), SLANT.__(), SLANT._1(), SLANT.__())));
+    Reductions.initReduction(Reductions.Traversal.DFS, false, SLANT.correctBlocks(SLANT.mkBlock(SLANT.b_slash(), SLANT.b_slash(), SLANT.__(), SLANT.x(), SLANT.b_slash())));
 
   }
 
