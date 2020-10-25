@@ -382,9 +382,8 @@
       <node id="3864357091420631284" at="630,1370,631,2281" concept="1" />
       <node id="3864357091422565239" at="631,2281,632,0" concept="4" />
       <node id="860920452690097755" at="632,0,633,848" concept="1" />
-      <node id="4466713211264583595" at="633,848,634,827" concept="1" />
-      <node id="7423578156483104006" at="634,827,635,172" concept="1" />
-      <node id="4466713211270227950" at="635,172,636,0" concept="4" />
+      <node id="4466713211264583595" at="633,848,634,809" concept="1" />
+      <node id="4466713211270227950" at="634,809,635,0" concept="4" />
       <node id="6756272197011005761" at="35,0,38,0" concept="0" trace="Board#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
       <node id="6756272197011005761" at="39,0,42,0" concept="0" trace="Board#(LActOne/runtime/model/Operator;null)V" />
       <node id="6756272197011005763" at="45,0,48,0" concept="0" trace="Elm#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
@@ -495,7 +494,7 @@
       <node id="8510667047123729214" at="20,0,24,0" concept="6" trace="dummy_int#()LActOne/runtime/predefined/INTEGER/Int;" />
       <node id="8510667047123729214" at="24,0,28,0" concept="6" trace="dummy_string#()LActOne/runtime/predefined/STRING/String;" />
       <node id="8510667047123729214" at="28,0,32,0" concept="6" trace="dummy_any#()LActOne/runtime/predefined/ANY/Any;" />
-      <node id="8510667047123729214" at="619,0,638,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <node id="8510667047123729214" at="619,0,637,0" concept="6" trace="main#([Ljava/lang/String;)V" />
       <node id="8510667047123729214" at="531,0,618,0" concept="6" trace="initAxioms#()V" />
       <scope id="6756272197011005761" at="35,48,36,24" />
       <scope id="6756272197011005761" at="39,54,40,30" />
@@ -1224,8 +1223,8 @@
       <scope id="8510667047123729214" at="20,0,24,0" />
       <scope id="8510667047123729214" at="24,0,28,0" />
       <scope id="8510667047123729214" at="28,0,32,0" />
-      <scope id="8510667047123729214" at="619,42,636,0" />
-      <scope id="8510667047123729214" at="619,0,638,0">
+      <scope id="8510667047123729214" at="619,42,635,0" />
+      <scope id="8510667047123729214" at="619,0,637,0">
         <var name="args" id="8510667047123729214" />
       </scope>
       <scope id="8510667047123729214" at="531,40,616,1393" />
@@ -1234,7 +1233,7 @@
       <unit id="6756272197011005763" at="43,0,53,0" name="NewSolution_test.SLANT$Elm" />
       <unit id="6756272197011005766" at="53,0,63,0" name="NewSolution_test.SLANT$Line" />
       <unit id="6756272197011005770" at="63,0,73,0" name="NewSolution_test.SLANT$Block" />
-      <unit id="8510667047123729214" at="14,0,640,0" name="NewSolution_test.SLANT" />
+      <unit id="8510667047123729214" at="14,0,639,0" name="NewSolution_test.SLANT" />
     </file>
   </root>
 </debug-info>
