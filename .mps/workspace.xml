@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="Fixed bugs">
+    <list default="true" id="c9240ae0-c445-41ff-95ef-a5bf2c8a9ca7" name="Default Changelist" comment="eleted all reduces except the inputBoardMapper">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/models/NewSolution_test.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen.caches/NewSolution_test/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/SLANT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/NewSolution/source_gen/NewSolution_test/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Last_Test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -505,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603649310405</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed bugs">
+      <created>1603650175977</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603650175977</updated>
+    </task>
+    <task id="LOCAL-00014" summary="eleted all reduces except the inputBoardMapper">
+      <created>1603650494996</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603650494996</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -529,17 +539,19 @@
     <MESSAGE value="Big loop and arrows, not all checks are run yet" />
     <MESSAGE value="fixed edge and arrow" />
     <MESSAGE value="Fixed bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs" />
+    <MESSAGE value="eleted all reduces except the inputBoardMapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="eleted all reduces except the inputBoardMapper" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="337" key="#MPSPropertiesConfigurable" timestamp="1601624643558">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1208" y="337" key="#MPSPropertiesConfigurable/0.23.1920.1057@0.23.1920.1057" timestamp="1601624643558" />
-    <state x="455" y="300" width="885" height="642" key="#Notifications" timestamp="1602683209798">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="815" y="356" width="885" height="642" key="#Notifications" timestamp="1603650556516">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="455" y="300" width="885" height="642" key="#Notifications/0.23.1920.1177@0.23.1920.1177" timestamp="1602683209798" />
+    <state x="815" y="356" key="#Notifications/0.23.3440.1417@0.23.3440.1417" timestamp="1603650556516" />
     <state x="149" y="305" key="#Tests_in_'NewSolution_test'" timestamp="1601769757678">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
@@ -561,12 +573,12 @@
     <state x="1138" y="313" key="FileChooserDialogImpl/0.23.1920.1057@0.23.1920.1057" timestamp="1601970933862" />
     <state x="1138" y="346" key="FileChooserDialogImpl/0.23.1920.1177@0.23.1920.1177" timestamp="1603192249598" />
     <state x="1170" y="527" key="FileChooserDialogImpl/0.23.3440.1417@0.23.3440.1417" timestamp="1601754363757" />
-    <state x="2699" y="605" key="Github.CreatePullRequestDialog" timestamp="1603650164733">
+    <state x="2699" y="605" key="Github.CreatePullRequestDialog" timestamp="1603650536961">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="4139" y="567" key="Github.CreatePullRequestDialog/0.23.1440.877/1440.-15.3440.1417@1440.-15.3440.1417" timestamp="1602604072948" />
     <state x="960" y="383" key="Github.CreatePullRequestDialog/0.23.1440.877@0.23.1440.877" timestamp="1602743307330" />
-    <state x="2699" y="605" key="Github.CreatePullRequestDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1603650164733" />
+    <state x="2699" y="605" key="Github.CreatePullRequestDialog/0.23.3440.1417@0.23.3440.1417" timestamp="1603650536961" />
     <state x="726" y="548" width="656" height="204" key="Github.ShareDialog" timestamp="1601971174213">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -638,13 +650,13 @@
     <state x="189" y="365" key="IDE.errors.dialog/0.23.1920.1057@0.23.1920.1057" timestamp="1602589001686" />
     <state x="189" y="403" key="IDE.errors.dialog/0.23.1920.1177@0.23.1920.1177" timestamp="1603090324041" />
     <state x="337" y="481" key="IDE.errors.dialog/0.23.3440.1417@0.23.3440.1417" timestamp="1601824172747" />
-    <state x="1003" y="418" key="Vcs.Push.Dialog.v2" timestamp="1603649318000">
+    <state x="1003" y="418" key="Vcs.Push.Dialog.v2" timestamp="1603650497923">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="420" y="267" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602743287262" />
     <state x="490" y="309" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1602586909519" />
     <state x="560" y="351" key="Vcs.Push.Dialog.v2/0.23.1920.1177@0.23.1920.1177" timestamp="1603096154909" />
-    <state x="1003" y="418" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1603649318000" />
+    <state x="1003" y="418" key="Vcs.Push.Dialog.v2/0.23.3440.1417@0.23.3440.1417" timestamp="1603650497923" />
     <state x="827" y="436" key="jetbrains.mps.debugger.java.runtime.ui.evaluation.EvaluationDialog" timestamp="1601969723818">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
